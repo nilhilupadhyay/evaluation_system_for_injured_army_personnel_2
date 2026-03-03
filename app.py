@@ -196,7 +196,6 @@ def index():
                 scrape_hospital_contact_details(nearby_hospitals)
             
             
-            sender_email = "nikhilupadhyayin@gmail.com"  
             sender_email = os.environ.get("EMAIL_USER")
             sender_password = os.environ.get("EMAIL_PASS")
             #recipient_email = "nikhil2020upadhyay@gmail.com" 
@@ -284,4 +283,5 @@ def diagnosis(id):
 
 
    
+
 
