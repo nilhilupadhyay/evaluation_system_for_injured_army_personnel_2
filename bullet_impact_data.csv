@@ -1,0 +1,991 @@
+Bullet Velocity (m/s),Human Body Mass (kg),Kinetic Energy (J),Temperature Rise (°C),Blood Loss (ml),ECG Readings,Health Status,Latitude,Longitude,Diagnosis Result
+350.5,70.3,490.2,0.0015,900,Abnormal,Critical,28.6139,77.209, Critical
+310.2,75.1,400.8,0.0012,300,Normal,Injured,28.7041,77.1025, Injured
+420.7,65.0,610.4,0.0021,1200,Abnormal,Critical,19.076,72.8777, Critical
+300.1,80.5,350.6,0.0010,100,Normal,Healthy,12.9716,77.5946, Healthy
+375.8,72.6,500.3,0.0016,800,Normal,Injured,13.0827,80.2707, Injured
+390.3,68.4,540.2,0.0018,1000,Abnormal,Critical,22.5726,88.3639, Critical
+320.4,85.2,410.1,0.0013,400,Normal,Injured,19.2183,72.9781, Injured
+330.2,60.9,430.6,0.0014,500,Normal,Injured,26.9124,75.7873, Injured
+410.6,55.8,580.9,0.0020,1300,Abnormal,Critical,28.4089,77.3178, Critical
+305.7,82.3,360.4,0.0011,150,Normal,Healthy,11.0168,76.9558, Healthy
+355.2,74.5,495.3,0.0015,850,Normal,Injured,23.0225,72.5714, Injured
+312.8,76.2,405.9,0.0012,350,Normal,Injured,22.7196,75.8577, Injured
+400.7,63.5,601.2,0.0020,1100,Abnormal,Critical,25.3176,82.9739, Critical
+302.5,81.4,353.1,0.0010,120,Normal,Healthy,28.6517,77.2219, Healthy
+370.9,70.7,510.8,0.0016,780,Normal,Injured,28.5355,77.391, Injured
+385.4,69.3,530.4,0.0018,950,Abnormal,Critical,28.4798,77.226, Critical
+325.7,84.5,415.2,0.0013,420,Normal,Injured,28.3949,77.024, Injured
+335.6,61.4,435.9,0.0014,510,Normal,Injured,28.4089,77.035, Injured
+405.1,56.5,590.6,0.0021,1250,Abnormal,Critical,19.2183,72.9781, Critical
+307.4,83.2,365.7,0.0011,160,Normal,Healthy,28.6139,77.209, Healthy
+360.3,73.4,480.3,0.0015,870,Normal,Injured,28.4089,77.3178, Injured
+315.6,77.3,395.6,0.0012,330,Normal,Injured,28.5355,77.391, Injured
+415.8,64.8,620.7,0.0021,1150,Abnormal,Critical,28.4798,77.226, Critical
+301.2,82.8,348.9,0.0010,110,Normal,Healthy,28.3949,77.024, Healthy
+380.4,71.2,520.4,0.0017,820,Normal,Injured,28.4089,77.035, Injured
+395.5,67.6,550.8,0.0019,990,Abnormal,Critical,28.6139,77.209, Critical
+322.3,85.6,409.4,0.0013,410,Normal,Injured,28.7041,77.1025, Injured
+340.8,62.1,450.1,0.0015,530,Normal,Injured,19.076,72.8777, Injured
+400.2,57.2,570.2,0.0020,1200,Abnormal,Critical,12.9716,77.5946, Critical
+310.7,84.3,370.1,0.0011,170,Normal,Healthy,13.0827,80.2707, Healthy
+350.1,72.4,490.1,0.0015,890,Normal,Injured,22.5726,88.3639, Injured
+313.3,75.8,400.2,0.0012,310,Normal,Injured,19.2183,72.9781, Injured
+425.1,64.0,630.4,0.0022,1300,Abnormal,Critical,26.9124,75.7873, Critical
+305.2,80.9,355.7,0.0010,130,Normal,Healthy,28.4089,77.3178, Healthy
+373.4,69.1,507.9,0.0016,770,Normal,Injured,11.0168,76.9558, Injured
+388.9,68.1,536.9,0.0018,980,Abnormal,Critical,23.0225,72.5714, Critical
+327.5,86.5,417.2,0.0014,430,Normal,Injured,22.7196,75.8577, Injured
+333.8,60.7,445.1,0.0014,520,Normal,Injured,25.3176,82.9739, Injured
+412.3,56.3,600.5,0.0021,1250,Abnormal,Critical,28.6517,77.2219, Critical
+308.1,81.6,360.2,0.0011,140,Normal,Healthy,28.5355,77.391, Healthy
+370.8,73.8,515.4,0.0016,780,Normal,Injured,28.4798,77.226, Injured
+318.7,76.0,395.9,0.0012,320,Normal,Injured,28.3949,77.024, Injured
+416.4,65.2,625.1,0.0021,1150,Abnormal,Critical,28.4089,77.035, Critical
+301.5,83.9,349.1,0.0010,100,Normal,Healthy,28.6139,77.209, Healthy
+385.2,70.6,525.8,0.0017,810,Normal,Injured,28.4089,77.3178, Injured
+397.1,66.8,555.4,0.0019,1000,Abnormal,Critical,28.5355,77.391, Critical
+323.6,87.1,411.3,0.0013,420,Normal,Injured,28.4798,77.226, Injured
+339.5,61.2,455.2,0.0015,510,Normal,Injured,28.3949,77.024, Injured
+405.4,58.0,580.1,0.0020,1200,Abnormal,Critical,19.2183,72.9781, Critical
+310.9,79.4,390.2,0.0011,180,Normal,Healthy,28.7041,77.1025, Healthy
+390.2,70.5,540.3,0.0018,1050,Abnormal,Critical,28.6139,77.209, Critical
+345.8,75.6,470.8,0.0015,860,Normal,Injured,19.076,72.8777, Injured
+301.1,81.7,350.9,0.0010,110,Normal,Healthy,12.9716,77.5946, Healthy
+375.4,68.2,510.6,0.0016,810,Normal,Injured,13.0827,80.2707, Injured
+420.3,63.4,610.1,0.0020,1230,Abnormal,Critical,22.5726,88.3639, Critical
+325.6,82.3,420.3,0.0013,410,Normal,Injured,19.2183,72.9781, Injured
+333.5,61.1,435.5,0.0014,530,Normal,Injured,26.9124,75.7873, Injured
+405.8,57.7,580.6,0.0020,1280,Abnormal,Critical,28.4089,77.3178, Critical
+307.8,83.1,365.9,0.0011,150,Normal,Healthy,11.0168,76.9558, Healthy
+365.3,74.9,485.2,0.0015,880,Normal,Injured,23.0225,72.5714, Injured
+312.6,77.4,405.7,0.0012,340,Normal,Injured,22.7196,75.8577, Injured
+400.5,62.7,600.2,0.0020,1110,Abnormal,Critical,25.3176,82.9739, Critical
+301.4,80.8,355.3,0.0010,130,Normal,Healthy,28.6517,77.2219, Healthy
+370.7,71.6,510.7,0.0016,790,Normal,Injured,28.5355,77.391, Injured
+385.7,70.9,530.5,0.0018,960,Abnormal,Critical,28.4798,77.226, Critical
+328.4,84.9,417.1,0.0013,420,Normal,Injured,28.3949,77.024, Injured
+337.9,62.2,440.9,0.0014,520,Normal,Injured,28.4089,77.035, Injured
+410.9,57.1,590.7,0.0021,1260,Abnormal,Critical,19.2183,72.9781, Critical
+306.5,82.9,362.8,0.0011,140,Normal,Healthy,28.6139,77.209, Healthy
+355.5,73.3,475.4,0.0015,870,Normal,Injured,28.4089,77.3178, Injured
+314.5,76.1,400.9,0.0012,320,Normal,Injured,28.5355,77.391, Injured
+415.3,65.5,615.3,0.0021,1160,Abnormal,Critical,28.4798,77.226, Critical
+302.7,83.8,351.7,0.0010,100,Normal,Healthy,28.3949,77.024, Healthy
+380.6,71.8,520.6,0.0017,820,Normal,Injured,28.4089,77.035, Injured
+395.1,67.5,550.7,0.0019,980,Abnormal,Critical,28.6139,77.209, Critical
+323.1,85.7,409.7,0.0013,420,Normal,Injured,28.7041,77.1025, Injured
+340.4,61.9,450.0,0.0015,530,Normal,Injured,19.076,72.8777, Injured
+401.0,56.8,570.6,0.0020,1200,Abnormal,Critical,12.9716,77.5946, Critical
+310.5,84.0,370.6,0.0011,170,Normal,Healthy,13.0827,80.2707, Healthy
+350.4,72.2,490.6,0.0015,900,Normal,Injured,22.5726,88.3639, Injured
+312.5,75.6,400.3,0.0012,310,Normal,Injured,19.2183,72.9781, Injured
+425.0,64.1,630.2,0.0022,1290,Abnormal,Critical,26.9124,75.7873, Critical
+305.1,81.3,355.5,0.0010,130,Normal,Healthy,28.4089,77.3178, Healthy
+373.0,69.2,507.3,0.0016,770,Normal,Injured,11.0168,76.9558, Injured
+389.1,68.0,537.0,0.0018,970,Abnormal,Critical,23.0225,72.5714, Critical
+326.4,86.2,416.8,0.0014,430,Normal,Injured,22.7196,75.8577, Injured
+334.6,60.6,445.3,0.0014,520,Normal,Injured,25.3176,82.9739, Injured
+412.8,56.6,600.1,0.0021,1240,Abnormal,Critical,28.6517,77.2219, Critical
+307.9,81.8,361.2,0.0011,140,Normal,Healthy,28.5355,77.391, Healthy
+371.2,73.9,514.8,0.0016,780,Normal,Injured,28.4798,77.226, Injured
+318.3,76.7,396.2,0.0012,310,Normal,Injured,28.3949,77.024, Injured
+416.0,64.9,625.5,0.0021,1170,Abnormal,Critical,28.4089,77.035, Critical
+301.6,83.7,349.0,0.0010,110,Normal,Healthy,28.6139,77.209, Healthy
+386.0,70.4,526.0,0.0017,810,Normal,Injured,28.4089,77.3178, Injured
+397.5,67.1,556.4,0.0019,1020,Abnormal,Critical,28.5355,77.391, Critical
+323.9,87.0,411.7,0.0013,420,Normal,Injured,28.4798,77.226, Injured
+338.3,61.3,456.3,0.0015,520,Normal,Injured,28.3949,77.024, Injured
+405.7,57.9,581.5,0.0020,1210,Abnormal,Critical,19.2183,72.9781, Critical
+309.4,81.5,361.1,0.0011,160,Normal,Healthy,28.6139,77.209, Healthy
+360.6,73.6,481.2,0.0015,880,Normal,Injured,28.4089,77.3178, Injured
+315.4,77.1,396.7,0.0012,340,Normal,Injured,28.5355,77.391, Injured
+415.9,65.1,621.3,0.0021,1190,Abnormal,Critical,28.4798,77.226, Critical
+350.5,70.3,490.2,0.0015,900,Abnormal,Critical,28.6139,77.209, Critical
+310.2,75.1,400.8,0.0012,300,Normal,Injured,28.7041,77.1025, Injured
+420.7,65.0,610.4,0.0021,1200,Abnormal,Critical,19.076,72.8777, Critical
+300.1,80.5,350.6,0.0010,100,Normal,Healthy,12.9716,77.5946, Healthy
+375.8,72.6,500.3,0.0016,800,Normal,Injured,13.0827,80.2707, Injured
+390.3,68.4,540.2,0.0018,1000,Abnormal,Critical,22.5726,88.3639, Critical
+320.4,85.2,410.1,0.0013,400,Normal,Injured,19.2183,72.9781, Injured
+330.2,60.9,430.6,0.0014,500,Normal,Injured,26.9124,75.7873, Injured
+410.6,55.8,580.9,0.0020,1300,Abnormal,Critical,28.4089,77.3178, Critical
+305.7,82.3,360.4,0.0011,150,Normal,Healthy,11.0168,76.9558, Healthy
+355.2,74.5,495.3,0.0015,850,Normal,Injured,23.0225,72.5714, Injured
+312.8,76.2,405.9,0.0012,350,Normal,Injured,22.7196,75.8577, Injured
+400.7,63.5,601.2,0.0020,1100,Abnormal,Critical,25.3176,82.9739, Critical
+302.5,81.4,353.1,0.0010,120,Normal,Healthy,28.6517,77.2219, Healthy
+370.9,70.7,510.8,0.0016,780,Normal,Injured,28.5355,77.391, Injured
+385.4,69.3,530.4,0.0018,950,Abnormal,Critical,28.4798,77.226, Critical
+325.7,84.5,415.2,0.0013,420,Normal,Injured,28.3949,77.024, Injured
+335.6,61.4,435.9,0.0014,510,Normal,Injured,28.4089,77.035, Injured
+405.1,56.5,590.6,0.0021,1250,Abnormal,Critical,19.2183,72.9781, Critical
+307.4,83.2,365.7,0.0011,160,Normal,Healthy,28.6139,77.209, Healthy
+360.3,73.4,480.3,0.0015,870,Normal,Injured,28.4089,77.3178, Injured
+315.6,77.3,395.6,0.0012,330,Normal,Injured,28.5355,77.391, Injured
+415.8,64.8,620.7,0.0021,1150,Abnormal,Critical,28.4798,77.226, Critical
+301.2,82.8,348.9,0.0010,110,Normal,Healthy,28.3949,77.024, Healthy
+380.4,71.2,520.4,0.0017,820,Normal,Injured,28.4089,77.035, Injured
+395.5,67.6,550.8,0.0019,990,Abnormal,Critical,28.6139,77.209, Critical
+322.3,85.6,409.4,0.0013,410,Normal,Injured,28.7041,77.1025, Injured
+340.8,62.1,450.1,0.0015,530,Normal,Injured,19.076,72.8777, Injured
+400.2,57.2,570.2,0.0020,1200,Abnormal,Critical,12.9716,77.5946, Critical
+310.7,84.3,370.1,0.0011,170,Normal,Healthy,13.0827,80.2707, Healthy
+350.1,72.4,490.1,0.0015,890,Normal,Injured,22.5726,88.3639, Injured
+313.3,75.8,400.2,0.0012,310,Normal,Injured,19.2183,72.9781, Injured
+425.1,64.0,630.4,0.0022,1300,Abnormal,Critical,26.9124,75.7873, Critical
+305.2,80.9,355.7,0.0010,130,Normal,Healthy,28.4089,77.3178, Healthy
+373.4,69.1,507.9,0.0016,770,Normal,Injured,11.0168,76.9558, Injured
+388.9,68.1,536.9,0.0018,980,Abnormal,Critical,23.0225,72.5714, Critical
+327.5,86.5,417.2,0.0014,430,Normal,Injured,22.7196,75.8577, Injured
+333.8,60.7,445.1,0.0014,520,Normal,Injured,25.3176,82.9739, Injured
+412.3,56.3,600.5,0.0021,1250,Abnormal,Critical,28.6517,77.2219, Critical
+308.1,81.6,360.2,0.0011,140,Normal,Healthy,28.5355,77.391, Healthy
+370.8,73.8,515.4,0.0016,780,Normal,Injured,28.4798,77.226, Injured
+318.7,76.0,395.9,0.0012,320,Normal,Injured,28.3949,77.024, Injured
+416.4,65.2,625.1,0.0021,1150,Abnormal,Critical,28.4089,77.035, Critical
+301.5,83.9,349.1,0.0010,100,Normal,Healthy,28.6139,77.209, Healthy
+385.2,70.6,525.8,0.0017,810,Normal,Injured,28.4089,77.3178, Injured
+397.1,66.8,555.4,0.0019,1000,Abnormal,Critical,28.5355,77.391, Critical
+323.6,87.1,411.3,0.0013,420,Normal,Injured,28.4798,77.226, Injured
+339.5,61.2,455.2,0.0015,510,Normal,Injured,28.3949,77.024, Injured
+405.4,58.0,580.1,0.0020,1200,Abnormal,Critical,19.2183,72.9781, Critical
+310.9,79.4,390.2,0.0011,180,Normal,Healthy,28.7041,77.1025, Healthy
+390.2,70.5,540.3,0.0018,1050,Abnormal,Critical,28.6139,77.209, Critical
+345.8,75.6,470.8,0.0015,860,Normal,Injured,19.076,72.8777, Injured
+301.1,81.7,350.9,0.0010,110,Normal,Healthy,12.9716,77.5946, Healthy
+375.4,68.2,510.6,0.0016,810,Normal,Injured,13.0827,80.2707, Injured
+420.3,63.4,610.1,0.0021,1150,Abnormal,Critical,22.5726,88.3639, Critical
+325.4,84.8,415.6,0.0013,430,Normal,Injured,28.5355,77.391, Injured
+335.9,62.3,435.8,0.0014,500,Normal,Injured,19.2183,72.9781, Injured
+400.6,56.9,575.9,0.0020,1200,Abnormal,Critical,26.9124,75.7873, Critical
+305.8,80.8,360.3,0.0011,140,Normal,Healthy,28.4089,77.3178, Healthy
+373.9,73.2,510.5,0.0016,790,Normal,Injured,11.0168,76.9558, Injured
+388.2,68.9,535.6,0.0018,970,Abnormal,Critical,23.0225,72.5714, Critical
+327.9,85.2,417.6,0.0014,420,Normal,Injured,22.7196,75.8577, Injured
+333.6,61.1,445.7,0.0014,510,Normal,Injured,25.3176,82.9739, Injured
+412.7,57.4,600.1,0.0021,1250,Abnormal,Critical,28.6517,77.2219, Critical
+308.5,82.1,365.3,0.0011,140,Normal,Healthy,28.5355,77.391, Healthy
+370.3,74.1,515.8,0.0016,790,Normal,Injured,28.4798,77.226, Injured
+318.3,75.4,400.3,0.0012,310,Normal,Injured,28.3949,77.024, Injured
+416.1,64.3,625.6,0.0021,1150,Abnormal,Critical,28.4089,77.035, Critical
+301.3,83.8,350.2,0.0010,120,Normal,Healthy,28.6139,77.209, Healthy
+385.5,71.6,526.1,0.0017,800,Normal,Injured,28.4089,77.3178, Injured
+397.4,67.4,555.2,0.0019,1000,Abnormal,Critical,28.5355,77.391, Critical
+323.4,86.3,411.8,0.0013,410,Normal,Injured,28.4798,77.226, Injured
+339.7,60.6,455.7,0.0015,520,Normal,Injured,28.3949,77.024, Injured
+405.3,58.4,580.7,0.0020,1200,Abnormal,Critical,19.2183,72.9781, Critical
+310.8,80.3,390.4,0.0011,170,Normal,Healthy,28.7041,77.1025, Healthy
+390.6,69.7,540.1,0.0018,1040,Abnormal,Critical,28.6139,77.209, Critical
+345.6,75.3,470.1,0.0015,870,Normal,Injured,19.076,72.8777, Injured
+301.0,82.4,350.7,0.0010,100,Normal,Healthy,12.9716,77.5946, Healthy
+375.3,67.8,510.4,0.0016,800,Normal,Injured,13.0827,80.2707, Injured
+420.4,63.7,610.3,0.0021,1150,Abnormal,Critical,22.5726,88.3639, Critical
+325.8,85.0,415.1,0.0013,430,Normal,Injured,28.5355,77.391, Injured
+335.5,62.4,435.3,0.0014,510,Normal,Injured,19.2183,72.9781, Injured
+400.9,56.1,575.6,0.0020,1200,Abnormal,Critical,26.9124,75.7873, Critical
+305.6,81.0,360.7,0.0011,150,Normal,Healthy,28.4089,77.3178, Healthy
+373.2,74.3,510.2,0.0016,800,Normal,Injured,11.0168,76.9558, Injured
+388.5,67.8,535.8,0.0018,960,Abnormal,Critical,23.0225,72.5714, Critical
+327.6,85.4,417.3,0.0014,410,Normal,Injured,22.7196,75.8577, Injured
+333.7,61.0,445.9,0.0014,510,Normal,Injured,25.3176,82.9739, Injured
+412.9,57.6,600.4,0.0021,1250,Abnormal,Critical,28.6517,77.2219, Critical
+308.7,81.8,365.2,0.0011,150,Normal,Healthy,28.5355,77.391, Healthy
+370.6,74.4,515.7,0.0016,780,Normal,Injured,28.4798,77.226, Injured
+318.2,75.2,400.8,0.0012,320,Normal,Injured,28.3949,77.024, Injured
+416.2,64.4,625.8,0.0021,1150,Abnormal,Critical,28.4089,77.035, Critical
+301.9,83.4,350.4,0.0010,120,Normal,Healthy,28.6139,77.209, Healthy
+385.8,71.0,526.4,0.0017,800,Normal,Injured,28.4089,77.3178, Injured
+397.3,67.1,555.7,0.0019,1010,Abnormal,Critical,28.5355,77.391, Critical
+323.8,86.0,411.5,0.0013,420,Normal,Injured,28.4798,77.226, Injured
+339.4,60.8,455.6,0.0015,520,Normal,Injured,28.3949,77.024, Injured
+405.0,58.3,580.3,0.0020,1200,Abnormal,Critical,19.2183,72.9781, Critical
+310.3,80.0,390.1,0.0011,160,Normal,Healthy,28.7041,77.1025, Healthy
+390.5,69.2,540.6,0.0018,1040,Abnormal,Critical,28.6139,77.209, Critical
+345.4,75.5,470.2,0.0015,860,Normal,Injured,19.076,72.8777, Injured
+301.6,82.2,350.3,0.0010,110,Normal,Healthy,12.9716,77.5946, Healthy
+375.7,68.4,510.9,0.0016,790,Normal,Injured,13.0827,80.2707, Injured
+420.1,63.5,610.6,0.0021,1140,Abnormal,Critical,22.5726,88.3639, Critical
+325.5,85.2,415.4,0.0013,430,Normal,Injured,28.5355,77.391, Injured
+335.4,62.6,435.5,0.0014,510,Normal,Injured,19.2183,72.9781, Injured
+400.3,56.8,575.3,0.0020,1190,Abnormal,Critical,26.9124,75.7873, Critical
+305.5,81.2,360.5,0.0011,150,Normal,Healthy,28.4089,77.3178, Healthy
+373.6,74.0,510.3,0.0016,800,Normal,Injured,11.0168,76.9558, Injured
+388.8,68.7,535.7,0.0018,960,Abnormal,Critical,23.0225,72.5714, Critical
+327.7,85.3,417.8,0.0014,420,Normal,Injured,22.7196,75.8577, Injured
+333.4,61.7,445.4,0.0014,510,Normal,Injured,25.3176,82.9739, Injured
+412.5,57.2,600.6,0.0021,1250,Abnormal,Critical,28.6517,77.2219, Critical
+308.9,81.5,365.1,0.0011,150,Normal,Healthy,28.5355,77.391, Healthy
+370.1,74.5,515.3,0.0016,780,Normal,Injured,28.4798,77.226, Injured
+318.5,75.0,400.9,0.0012,310,Normal,Injured,28.3949,77.024, Injured
+416.5,64.5,625.7,0.0021,1140,Abnormal,Critical,28.4089,77.035, Critical
+301.8,83.5,350.5,0.0010,120,Normal,Healthy,28.6139,77.209, Healthy
+385.6,71.3,526.3,0.0017,800,Normal,Injured,28.4089,77.3178, Injured
+397.2,67.3,555.6,0.0019,1010,Abnormal,Critical,28.5355,77.391, Critical
+323.5,86.1,411.6,0.0013,420,Normal,Injured,28.4798,77.226, Injured
+339.1,61.9,455.4,0.0015,530,Normal,Injured,28.3949,77.024, Injured
+405.2,58.5,580.4,0.0020,1200,Abnormal,Critical,19.2183,72.9781, Critical
+310.4,80.1,390.3,0.0011,160,Normal,Healthy,28.7041,77.1025, Healthy
+390.4,69.4,540.7,0.0018,1030,Abnormal,Critical,28.6139,77.209, Critical
+345.3,75.8,470.9,0.0015,850,Normal,Injured,19.076,72.8777, Injured
+301.7,82.5,350.1,0.0010,110,Normal,Healthy,12.9716,77.5946, Healthy
+375.5,68.5,510.7,0.0016,790,Normal,Injured,13.0827,80.2707, Injured
+420.2,63.8,610.5,0.0021,1150,Abnormal,Critical,22.5726,88.3639, Critical
+325.2,85.1,415.5,0.0013,420,Normal,Injured,28.5355,77.391, Injured
+335.3,62.5,435.6,0.0014,510,Normal,Injured,19.2183,72.9781, Injured
+400.5,56.6,575.8,0.0020,1190,Abnormal,Critical,26.9124,75.7873, Critical
+305.3,81.1,360.9,0.0011,140,Normal,Healthy,28.4089,77.3178, Healthy
+373.5,74.2,510.1,0.0016,800,Normal,Injured,11.0168,76.9558, Injured
+388.3,68.8,535.2,0.0018,960,Abnormal,Critical,23.0225,72.5714, Critical
+327.4,85.5,417.7,0.0014,420,Normal,Injured,22.7196,75.8577, Injured
+333.9,61.8,445.8,0.0014,510,Normal,Injured,25.3176,82.9739, Injured
+412.8,57.5,600.3,0.0021,1250,Abnormal,Critical,28.6517,77.2219, Critical
+308.6,81.7,365.4,0.0011,150,Normal,Healthy,28.5355,77.391, Healthy
+370.2,74.6,515.6,0.0016,790,Normal,Injured,28.4798,77.226, Injured
+318.4,75.1,400.4,0.0012,310,Normal,Injured,28.3949,77.024, Injured
+416.6,64.2,625.9,0.0021,1140,Abnormal,Critical,28.4089,77.035, Critical
+301.4,83.7,350.8,0.0010,120,Normal,Healthy,28.6139,77.209, Healthy
+385.1,71.5,526.5,0.0017,800,Normal,Injured,28.4089,77.3178, Injured
+397.5,67.5,555.5,0.0019,1010,Abnormal,Critical,28.5355,77.391, Critical
+323.7,86.2,411.4,0.0013,420,Normal,Injured,28.4798,77.226, Injured
+339.3,60.5,455.3,0.0015,530,Normal,Injured,28.3949,77.024, Injured
+405.5,58.2,580.5,0.0020,1200,Abnormal,Critical,19.2183,72.9781, Critical
+310.1,79.9,390.5,0.0011,160,Normal,Healthy,28.7041,77.1025, Healthy
+390.8,69.3,540.5,0.0018,1030,Abnormal,Critical,28.6139,77.209, Critical
+345.9,75.9,470.6,0.0015,860,Normal,Injured,19.076,72.8777, Injured
+301.9,82.1,350.4,0.0010,110,Normal,Healthy,12.9716,77.5946, Healthy
+375.6,68.9,510.5,0.0016,790,Normal,Injured,13.0827,80.2707, Injured
+420.0,63.9,610.8,0.0021,1150,Abnormal,Critical,22.5726,88.3639, Critical
+325.9,85.3,415.8,0.0013,430,Normal,Injured,28.5355,77.391, Injured
+335.2,62.7,435.2,0.0014,510,Normal,Injured,19.2183,72.9781, Injured
+400.4,56.7,575.4,0.0020,1190,Abnormal,Critical,26.9124,75.7873, Critical
+305.4,81.3,360.8,0.0011,150,Normal,Healthy,28.4089,77.3178, Healthy
+373.1,74.7,510.0,0.0016,800,Normal,Injured,11.0168,76.9558, Injured
+388.4,69.1,535.4,0.0018,960,Abnormal,Critical,23.0225,72.5714, Critical
+327.8,85.6,417.1,0.0014,420,Normal,Injured,22.7196,75.8577, Injured
+333.2,61.6,445.0,0.0014,510,Normal,Injured,25.3176,82.9739, Injured
+412.6,57.3,600.2,0.0021,1250,Abnormal,Critical,28.6517,77.2219, Critical
+308.4,81.4,365.5,0.0011,150,Normal,Healthy,28.5355,77.391, Healthy
+370.7,74.8,515.5,0.0016,780,Normal,Injured,28.4798,77.226, Injured
+312.24,64.29,6971.16,0.0014,462,Normal,Injured,18.35,75.68,Injured
+334.56,70.38,7423.12,0.0015,897,Abnormal,Critical,12.15,78.93,Injured
+328.90,74.82,7119.26,0.0018,589,Normal,Healthy,16.75,79.40,Healthy
+347.65,82.29,7512.21,0.0017,753,Abnormal,Injured,15.00,72.19,Injured
+356.24,66.47,7904.42,0.0016,612,Normal,Critical,11.33,73.12,Critical
+335.12,78.56,7398.10,0.0015,978,Abnormal,Injured,13.24,74.28,Injured
+328.45,73.18,7990.56,0.0012,583,Normal,Healthy,17.22,74.63,Healthy
+372.30,66.99,8912.50,0.0019,978,Abnormal,Injured,14.59,72.37,Critical
+315.85,85.76,6504.18,0.0015,422,Normal,Injured,12.45,78.23,Injured
+360.72,72.90,7883.35,0.0017,641,Abnormal,Critical,16.85,80.11,Injured
+346.22,80.35,7419.16,0.0014,934,Normal,Healthy,13.55,82.16,Critical
+314.78,70.12,6778.85,0.0018,405,Abnormal,Healthy,15.22,76.88,Healthy
+355.23,76.90,7223.78,0.0016,578,Normal,Injured,18.20,75.11,Injured
+329.94,82.30,7104.62,0.0019,701,Abnormal,Critical,11.55,77.22,Critical
+339.12,67.45,7387.13,0.0015,562,Normal,Healthy,14.40,79.85,Healthy
+353.67,72.55,7598.72,0.0016,893,Abnormal,Injured,12.25,80.50,Injured
+317.86,81.15,6892.42,0.0014,398,Normal,Critical,13.35,73.91,Critical
+350.91,68.26,7701.55,0.0015,752,Abnormal,Injured,12.40,74.89,Injured
+329.50,77.35,7279.91,0.0016,592,Normal,Healthy,15.68,79.57,Healthy
+335.90,82.50,7494.34,0.0018,609,Abnormal,Injured,16.12,75.29,Injured
+317.48,69.71,6880.82,0.0014,435,Normal,Critical,18.22,74.77,Critical
+356.30,74.22,7923.41,0.0016,621,Abnormal,Injured,11.90,78.56,Injured
+343.90,79.87,7515.45,0.0017,684,Normal,Healthy,14.53,73.68,Healthy
+334.40,72.80,7285.25,0.0016,877,Abnormal,Critical,13.75,77.54,Critical
+325.67,75.90,7024.14,0.0015,486,Normal,Injured,17.50,79.85,Injured
+336.98,82.44,7590.24,0.0018,654,Abnormal,Healthy,16.09,76.22,Healthy
+358.55,67.21,8056.40,0.0016,711,Normal,Critical,12.05,78.90,Critical
+314.87,78.76,6809.15,0.0014,419,Abnormal,Injured,15.77,75.31,Injured
+330.24,84.45,7100.85,0.0019,634,Normal,Healthy,14.12,74.19,Healthy
+356.78,71.24,7790.60,0.0017,598,Abnormal,Critical,11.50,79.95,Critical
+328.35,77.90,7027.62,0.0016,689,Normal,Injured,13.30,72.85,Injured
+349.55,68.76,7593.53,0.0015,742,Abnormal,Healthy,12.70,75.10,Healthy
+313.45,80.50,6901.80,0.0014,423,Normal,Injured,17.80,74.62,Injured
+339.78,72.12,7431.77,0.0015,536,Abnormal,Critical,15.28,76.74,Critical
+329.12,76.35,7116.16,0.0018,602,Normal,Healthy,16.48,73.77,Healthy
+350.65,83.50,7595.94,0.0017,690,Abnormal,Injured,14.92,72.23,Injured
+318.67,71.44,6915.38,0.0014,415,Normal,Critical,13.84,75.91,Critical
+356.18,74.76,7837.29,0.0016,608,Abnormal,Injured,12.90,78.23,Injured
+335.23,80.12,7325.85,0.0015,724,Normal,Healthy,16.60,77.10,Healthy
+328.56,77.67,7119.68,0.0019,639,Abnormal,Critical,14.85,79.22,Critical
+314.89,69.83,6743.90,0.0014,432,Normal,Injured,18.50,74.18,Injured
+355.78,82.54,7594.84,0.0016,590,Abnormal,Healthy,12.33,73.56,Healthy
+331.09,73.15,7157.42,0.0015,487,Normal,Critical,15.60,78.85,Critical
+329.50,79.62,7238.57,0.0018,657,Abnormal,Injured,13.22,75.91,Injured
+316.40,80.30,6883.40,0.0014,453,Normal,Healthy,14.98,74.89,Healthy
+350.23,72.90,7517.40,0.0016,711,Abnormal,Critical,17.12,76.32,Critical
+328.90,74.58,7159.56,0.0017,624,Normal,Injured,16.45,72.91,Injured
+341.90,67.15,7405.38,0.0015,543,Abnormal,Healthy,12.25,78.64,Healthy
+335.24,80.55,7359.51,0.0016,678,Normal,Critical,15.20,73.91,Critical
+317.60,74.89,6904.25,0.0014,425,Abnormal,Injured,14.30,75.16,Injured
+354.75,76.99,7498.77,0.0018,592,Normal,Healthy,17.60,79.11,Healthy
+328.45,73.18,7990.56,0.0012,583,Normal,Healthy,17.22,74.63,Healthy
+356.20,68.76,7842.41,0.0017,612,Abnormal,Critical,11.20,78.65,Critical
+331.76,77.12,7178.12,0.0015,597,Normal,Injured,13.45,73.68,Injured
+348.20,81.57,7523.38,0.0018,688,Abnormal,Healthy,16.22,76.15,Healthy
+329.60,80.12,7105.33,0.0014,614,Normal,Critical,12.99,74.72,Critical
+317.45,78.78,6811.21,0.0016,424,Abnormal,Injured,15.25,72.96,Injured
+354.88,71.32,7447.54,0.0017,629,Normal,Healthy,17.65,76.39,Healthy
+336.56,73.89,7323.78,0.0015,456,Abnormal,Injured,14.15,78.54,Injured
+328.23,79.55,7176.91,0.0016,543,Normal,Critical,15.48,73.72,Critical
+351.67,69.76,7576.33,0.0014,592,Abnormal,Healthy,13.55,74.12,Healthy
+313.89,80.27,6902.44,0.0015,452,Normal,Injured,17.60,76.28,Injured
+339.78,74.15,7458.72,0.0017,679,Abnormal,Critical,16.20,79.92,Critical
+328.64,71.55,7021.26,0.0014,486,Normal,Healthy,18.10,72.97,Healthy
+355.34,79.28,7305.92,0.0015,593,Abnormal,Injured,13.70,74.46,Injured
+318.85,74.32,6931.63,0.0016,410,Normal,Critical,14.29,76.52,Critical
+337.92,82.45,7641.90,0.0017,688,Abnormal,Healthy,15.25,79.11,Healthy
+329.45,77.60,7175.77,0.0018,608,Normal,Injured,13.60,75.24,Injured
+354.78,68.14,7742.05,0.0015,602,Abnormal,Critical,12.10,78.63,Critical
+316.29,76.43,6924.62,0.0016,421,Normal,Healthy,14.67,74.29,Healthy
+340.26,70.88,7509.36,0.0017,672,Abnormal,Injured,16.54,76.10,Injured
+328.54,73.82,7112.33,0.0015,653,Normal,Critical,13.70,79.25,Critical
+357.12,75.62,7658.87,0.0014,628,Abnormal,Healthy,11.95,74.53,Healthy
+325.20,78.30,6981.45,0.0016,468,Normal,Injured,18.70,76.12,Injured
+346.18,82.77,7431.25,0.0018,612,Abnormal,Healthy,15.45,74.88,Healthy
+332.67,72.44,7269.84,0.0015,542,Normal,Critical,16.28,77.65,Critical
+329.89,77.90,7104.45,0.0017,599,Abnormal,Injured,13.40,73.79,Injured
+315.75,74.91,6881.85,0.0014,473,Normal,Healthy,14.92,76.28,Healthy
+336.98,81.17,7594.88,0.0016,682,Abnormal,Critical,16.30,79.23,Critical
+318.90,78.12,6970.12,0.0018,455,Normal,Injured,13.89,75.16,Injured
+355.25,73.43,7623.20,0.0015,629,Abnormal,Healthy,17.18,74.15,Healthy
+329.67,80.19,7097.55,0.0017,641,Normal,Critical,16.30,78.23,Critical
+344.56,69.74,7442.90,0.0015,493,Abnormal,Injured,14.78,72.40,Injured
+328.13,75.78,7179.02,0.0016,528,Normal,Healthy,17.40,73.90,Healthy
+351.45,72.56,7548.32,0.0017,683,Abnormal,Critical,12.60,75.28,Critical
+317.54,78.94,6864.12,0.0014,442,Normal,Injured,13.48,74.55,Injured
+334.90,81.90,7385.67,0.0015,605,Abnormal,Healthy,18.70,76.54,Healthy
+328.76,76.43,7156.02,0.0018,612,Normal,Critical,15.25,77.89,Critical
+356.30,70.21,7820.50,0.0016,598,Abnormal,Injured,13.95,74.77,Injured
+339.70,75.31,7424.34,0.0015,642,Normal,Healthy,14.68,72.90,Healthy
+317.90,74.67,6912.78,0.0014,458,Abnormal,Critical,13.70,76.62,Critical
+354.67,79.18,7487.85,0.0016,611,Normal,Injured,17.12,78.50,Injured
+328.54,74.22,7094.30,0.0018,651,Abnormal,Healthy,16.25,75.41,Healthy
+335.80,73.47,7289.43,0.0017,589,Normal,Critical,14.00,79.64,Critical
+Bullet Velocity (m/s),Human Body Mass (kg),Kinetic Energy (J),Temperature Rise (°C),Blood Loss (ml),ECG Readings,Health Status,Latitude,Longitude,Diagnosis Result
+341.27,71.56,7524.67,0.0016,530,Normal,Healthy,40.7128,-74.0060,Healthy
+325.34,68.95,7115.44,0.0018,615,Abnormal,Injured,34.0522,-118.2437,Injured
+352.48,74.23,7624.17,0.0017,663,Normal,Critical,37.7749,-122.4194,Critical
+331.56,72.67,7124.91,0.0016,478,Abnormal,Healthy,36.1699,-115.1398,Healthy
+340.12,79.45,7506.23,0.0018,532,Normal,Injured,39.9526,-75.1652,Injured
+318.49,75.89,6812.51,0.0017,600,Abnormal,Critical,32.7157,-117.1611,Critical
+355.67,77.34,7521.45,0.0015,620,Normal,Healthy,42.3601,-71.0589,Healthy
+328.71,69.88,7017.45,0.0016,470,Abnormal,Injured,45.5234,-122.6762,Injured
+337.95,72.77,7218.44,0.0017,550,Normal,Critical,47.6062,-122.3321,Critical
+323.76,78.95,6924.58,0.0018,658,Abnormal,Healthy,39.2904,-76.6122,Healthy
+350.62,81.23,7582.34,0.0015,625,Normal,Injured,39.7392,-104.9903,Injured
+332.41,76.56,7153.98,0.0017,545,Abnormal,Critical,37.7749,-122.4194,Critical
+321.84,80.21,6897.29,0.0016,590,Normal,Healthy,36.1627,-86.7816,Healthy
+339.47,77.89,7354.81,0.0015,563,Abnormal,Injured,34.0522,-118.2437,Injured
+346.27,74.33,7406.91,0.0018,602,Normal,Critical,30.2672,-97.7431,Critical
+324.66,69.45,7018.76,0.0016,485,Abnormal,Healthy,41.8781,-87.6298,Healthy
+338.97,82.12,7521.22,0.0017,620,Normal,Injured,43.6511,-79.3470,Injured
+331.15,76.99,7214.15,0.0015,680,Abnormal,Critical,42.3314,-83.0458,Critical
+357.56,79.42,7598.72,0.0016,600,Normal,Healthy,36.0528,-112.0938,Healthy
+340.32,73.45,7387.56,0.0018,642,Abnormal,Injured,41.2565,-95.9345,Injured
+328.94,81.78,7115.12,0.0017,567,Normal,Critical,39.0997,-94.5786,Critical
+320.87,75.29,6912.46,0.0015,564,Abnormal,Healthy,33.4484,-112.0740,Healthy
+339.54,77.89,7325.67,0.0018,608,Normal,Injured,32.7767,-96.7970,Injured
+330.45,78.22,7249.34,0.0016,652,Abnormal,Critical,40.7608,-111.8910,Critical
+354.28,76.54,7482.91,0.0015,636,Normal,Healthy,37.7749,-122.4194,Healthy
+329.67,73.87,7091.87,0.0017,594,Abnormal,Injured,34.0522,-118.2437,Injured
+340.56,80.12,7528.14,0.0016,648,Normal,Critical,30.2672,-97.7431,Critical
+325.89,70.76,6974.84,0.0018,562,Abnormal,Healthy,33.4484,-112.0740,Healthy
+336.28,72.34,7210.16,0.0017,575,Normal,Injured,35.4676,-97.5164,Injured
+353.84,77.55,7574.16,0.0016,620,Abnormal,Critical,37.7749,-122.4194,Critical
+331.76,74.12,7156.45,0.0018,602,Normal,Healthy,40.7128,-74.0060,Healthy
+319.84,71.23,6894.56,0.0015,590,Abnormal,Injured,42.3601,-71.0589,Injured
+354.98,78.76,7620.87,0.0017,625,Normal,Critical,45.5234,-122.6762,Critical
+336.12,75.89,7310.92,0.0016,575,Abnormal,Healthy,39.0997,-94.5786,Healthy
+325.54,70.12,7094.22,0.0018,630,Normal,Injured,41.2565,-95.9345,Injured
+340.89,76.21,7484.22,0.0017,680,Abnormal,Critical,40.7608,-111.8910,Critical
+334.19,79.32,7243.45,0.0016,590,Normal,Healthy,43.6511,-79.3470,Healthy
+352.12,73.98,7386.14,0.0018,620,Abnormal,Injured,41.8781,-87.6298,Injured
+327.84,80.56,7112.29,0.0017,572,Normal,Critical,32.7767,-96.7970,Critical
+339.64,75.23,7275.42,0.0016,656,Abnormal,Healthy,37.7749,-122.4194,Healthy
+331.56,74.89,7194.83,0.0017,690,Normal,Injured,35.4676,-97.5164,Injured
+328.72,81.12,7241.34,0.0015,575,Abnormal,Critical,33.4484,-112.0740,Critical
+350.76,77.65,7547.89,0.0016,620,Normal,Healthy,36.0528,-112.0938,Healthy
+335.28,70.89,7124.29,0.0018,642,Abnormal,Injured,39.0997,-94.5786,Injured
+353.98,78.45,7613.16,0.0017,654,Normal,Critical,42.3314,-83.0458,Critical
+320.54,73.76,6925.43,0.0016,590,Abnormal,Healthy,34.0522,-118.2437,Healthy
+331.84,79.12,7267.51,0.0018,652,Normal,Injured,37.7749,-122.4194,Injured
+336.74,74.22,7375.55,0.0017,560,Abnormal,Critical,39.2904,-76.6122,Critical
+327.99,81.45,7134.42,0.0016,585,Normal,Healthy,41.8781,-87.6298,Healthy
+340.67,72.34,7523.46,0.0018,645,Abnormal,Injured,39.7392,-104.9903,Injured
+330.12,76.89,7255.78,0.0017,620,Normal,Critical,45.5234,-122.6762,Critical
+334.54,70.76,7162.34,0.0016,602,Abnormal,Healthy,40.7128,-74.0060,Healthy
+321.89,75.23,6911.54,0.0017,588,Normal,Injured,36.1699,-115.1398,Injured
+355.67,78.76,7568.29,0.0018,660,Abnormal,Critical,34.0522,-118.2437,Critical
+339.12,71.45,7286.54,0.0016,598,Normal,Healthy,32.7767,-96.7970,Healthy
+328.97,74.89,7212.67,0.0017,620,Abnormal,Injured,37.7749,-122.4194,Injured
+340.23,80.56,7594.32,0.0018,640,Normal,Critical,39.0997,-94.5786,Critical
+335.74,77.45,7358.22,0.0016,675,Abnormal,Healthy,45.5234,-122.6762,Healthy
+322.85,73.67,6889.23,0.0018,590,Normal,Injured,33.4484,-112.0740,Injured
+350.76,79.12,7584.67,0.0017,655,Abnormal,Critical,41.8781,-87.6298,Critical
+329.56,74.34,7125.68,0.0015,605,Normal,Healthy,37.7749,-122.4194,Healthy
+336.48,76.22,7317.12,0.0018,658,Abnormal,Injured,34.0522,-118.2437,Injured
+328.32,71.76,7152.38,0.0016,583,Normal,Critical,39.2904,-76.6122,Critical
+320.15,78.45,6889.12,0.0017,575,Abnormal,Healthy,32.7767,-96.7970,Healthy
+355.97,80.12,7642.99,0.0018,628,Normal,Injured,36.0528,-112.0938,Injured
+330.42,74.56,7212.16,0.0016,610,Abnormal,Critical,42.3314,-83.0458,Critical
+335.19,77.68,7379.25,0.0017,590,Normal,Healthy,33.4484,-112.0740,Healthy
+329.67,81.12,7116.23,0.0018,602,Abnormal,Injured,35.4676,-97.5164,Injured
+340.67,72.34,7482.77,0.0016,612,Normal,Critical,37.7749,-122.4194,Critical
+322.89,74.45,6924.55,0.0017,588,Abnormal,Healthy,41.2565,-95.9345,Healthy
+336.28,70.12,7210.76,0.0018,622,Normal,Injured,39.0997,-94.5786,Injured
+350.56,75.23,7623.22,0.0016,648,Abnormal,Critical,40.7608,-111.8910,Critical
+332.14,77.45,7281.43,0.0017,600,Normal,Healthy,37.7749,-122.4194,Healthy
+328.53,72.34,7154.28,0.0018,645,Abnormal,Injured,30.2672,-97.7431,Injured
+335.45,74.56,7318.67,0.0016,610,Normal,Critical,42.3314,-83.0458,Critical
+324.67,80.12,6914.34,0.0017,584,Abnormal,Healthy,39.2904,-76.6122,Healthy
+340.56,73.45,7528.19,0.0018,605,Normal,Injured,33.4484,-112.0740,Injured
+331.89,76.78,7187.23,0.0017,578,Abnormal,Critical,34.0522,-118.2437,Critical
+326.54,71.23,7054.35,0.0016,620,Normal,Healthy,37.7749,-122.4194,Healthy
+350.67,77.34,7564.21,0.0018,634,Abnormal,Injured,42.3314,-83.0458,Injured
+332.87,74.56,7238.19,0.0017,596,Normal,Critical,41.8781,-87.6298,Critical
+339.54,78.32,7325.14,0.0016,611,Abnormal,Healthy,36.0528,-112.0938,Healthy
+321.65,75.12,6894.27,0.0018,645,Normal,Injured,32.7767,-96.7970,Injured
+356.48,79.67,7623.15,0.0017,650,Abnormal,Critical,39.0997,-94.5786,Critical
+329.87,71.89,7106.58,0.0016,608,Normal,Healthy,35.4676,-97.5164,Healthy
+338.92,73.23,7356.71,0.0018,593,Abnormal,Injured,30.2672,-97.7431,Injured
+326.34,79.54,6973.98,0.0016,618,Normal,Critical,39.2904,-76.6122,Critical
+334.76,74.12,7234.75,0.0017,588,Abnormal,Healthy,34.0522,-118.2437,Healthy
+339.68,76.45,7411.56,0.0018,654,Normal,Injured,41.2565,-95.9345,Injured
+332.57,72.78,7107.31,0.0016,630,Abnormal,Critical,37.7749,-122.4194,Critical
+325.74,74.89,7019.42,0.0017,606,Normal,Healthy,36.1699,-115.1398,Healthy
+336.12,77.56,7314.28,0.0018,582,Abnormal,Injured,39.0997,-94.5786,Injured
+328.47,73.78,7134.21,0.0016,615,Normal,Critical,32.7767,-96.7970,Critical
+334.56,80.12,7197.45,0.0017,598,Abnormal,Healthy,41.8781,-87.6298,Healthy
+351.67,75.34,7591.78,0.0016,622,Normal,Injured,40.7128,-74.0060,Injured
+332.47,74.89,7244.56,0.0018,640,Abnormal,Critical,35.4676,-97.5164,Critical
+324.56,80.12,6985.73,0.0017,616,Normal,Healthy,37.7749,-122.4194,Healthy
+339.87,77.34,7302.99,0.0016,610,Abnormal,Injured,34.0522,-118.2437,Injured
+326.87,71.78,7153.67,0.0018,628,Normal,Critical,33.4484,-112.0740,Critical
+340.21,76.12,7458.44,0.0016,648,Abnormal,Healthy,41.2565,-95.9345,Healthy
+329.87,80.23,7335.98,0.0017,596,Normal,Injured,39.0997,-94.5786,Injured
+334.79,74.56,7287.45,0.0016,605,Abnormal,Critical,42.3314,-83.0458,Critical
+320.34,75.23,6890.32,0.0018,612,Normal,Healthy,30.2672,-97.7431,Healthy
+353.27,77.89,7624.12,0.0017,625,Abnormal,Injured,45.5234,-122.6762,Injured
+332.65,73.56,7121.77,0.0016,568,Normal,Critical,39.2904,-76.6122,Critical
+339.87,74.78,7309.14,0.0017,620,Abnormal,Healthy,32.7767,-96.7970,Healthy
+328.19,78.23,7154.56,0.0016,600,Normal,Injured,33.4484,-112.0740,Injured
+320.56,80.12,6915.23,0.0017,585,Abnormal,Critical,41.8781,-87.6298,Critical
+334.76,74.12,7286.45,0.0016,592,Normal,Healthy,37.7749,-122.4194,Healthy
+339.58,75.67,7302.89,0.0017,640,Abnormal,Injured,36.0528,-112.0938,Injured
+328.87,78.12,7112.98,0.0016,575,Normal,Critical,34.0522,-118.2437,Critical
+352.67,74.56,7542.35,0.0017,658,Abnormal,Healthy,39.0997,-94.5786,Healthy
+333.14,76.89,7254.12,0.0016,622,Normal,Injured,42.3314,-83.0458,Injured
+320.92,75.67,6908.45,0.0018,598,Abnormal,Critical,35.4676,-97.5164,Critical
+336.78,77.45,7387.67,0.0017,612,Normal,Healthy,41.2565,-95.9345,Healthy
+328.23,81.12,7144.12,0.0016,620,Abnormal,Injured,34.0522,-118.2437,Injured
+353.14,78.34,7623.56,0.0018,628,Normal,Critical,30.2672,-97.7431,Critical
+331.89,74.89,7205.34,0.0017,636,Abnormal,Healthy,32.7767,-96.7970,Healthy
+320.78,73.12,6877.56,0.0018,646,Normal,Injured,37.7749,-122.4194,Injured
+339.97,76.45,7318.67,0.0017,662,Abnormal,Critical,39.0997,-94.5786,Critical
+326.54,70.76,7035.56,0.0016,592,Normal,Healthy,41.8781,-87.6298,Healthy
+334.68,74.78,7198.12,0.0017,608,Abnormal,Injured,34.0522,-118.2437,Injured
+329.12,78.56,7245.67,0.0016,615,Normal,Critical,39.2904,-76.6122,Critical
+321.45,76.23,6911.78,0.0017,628,Abnormal,Healthy,37.7749,-122.4194,Healthy
+336.76,80.12,7355.67,0.0016,640,Normal,Injured,36.0528,-112.0938,Injured
+328.94,74.45,7102.43,0.0017,610,Abnormal,Critical,41.2565,-95.9345,Critical
+355.12,77.34,7624.56,0.0016,630,Normal,Healthy,42.3314,-83.0458,Healthy
+331.78,71.23,7175.44,0.0018,615,Abnormal,Injured,45.5234,-122.6762,Injured
+338.24,76.89,7354.56,0.0017,612,Normal,Critical,32.7767,-96.7970,Critical
+329.67,79.12,7245.67,0.0016,628,Abnormal,Healthy,30.2672,-97.7431,Healthy
+320.56,75.23,6901.34,0.0018,640,Normal,Injured,41.8781,-87.6298,Injured
+336.89,73.78,7379.89,0.0017,620,Abnormal,Critical,34.0522,-118.2437,Critical
+328.75,78.56,7234.78,0.0016,615,Normal,Healthy,37.7749,-122.4194,Healthy
+354.97,77.45,7521.89,0.0017,645,Abnormal,Injured,39.2904,-76.6122,Injured
+334.87,74.78,7265.21,0.0016,628,Normal,Critical,32.7767,-96.7970,Critical
+321.56,73.23,6925.34,0.0017,635,Abnormal,Healthy,35.4676,-97.5164,Healthy
+328.92,75.89,7145.67,0.0018,640,Normal,Injured,37.7749,-122.4194,Injured
+338.95,74.34,7356.78,0.0017,605,Abnormal,Critical,30.2672,-97.7431,Critical
+325.89,71.78,7054.43,0.0016,620,Normal,Healthy,36.0528,-112.0938,Healthy
+353.78,78.45,7541.89,0.0017,632,Abnormal,Injured,42.3314,-83.0458,Injured
+331.56,74.89,7265.34,0.0018,628,Normal,Critical,34.0522,-118.2437,Critical
+328.56,73.78,7204.56,0.0016,645,Abnormal,Healthy,41.2565,-95.9345,Healthy
+335.89,77.34,7371.45,0.0017,662,Normal,Injured,39.0997,-94.5786,Injured
+339.32,74.89,7302.23,0.0016,620,Abnormal,Critical,37.7749,-122.4194,Critical
+326.45,78.45,7154.78,0.0017,600,Normal,Healthy,30.2672,-97.7431,Healthy
+334.97,74.56,7245.89,0.0018,630,Abnormal,Injured,36.0528,-112.0938,Injured
+320.98,76.34,6907.23,0.0016,645,Normal,Critical,33.4484,-112.0740,Critical
+338.46,77.89,7325.67,0.0017,656,Abnormal,Healthy,32.7767,-96.7970,Healthy
+329.54,74.12,7227.45,0.0016,620,Normal,Injured,34.0522,-118.2437,Injured
+330.89,80.12,7354.12,0.0017,628,Abnormal,Critical,41.8781,-87.6298,Critical
+328.64,75.56,7155.23,0.0018,635,Normal,Healthy,37.7749,-122.4194,Healthy
+336.45,74.89,7379.89,0.0017,620,Abnormal,Injured,39.2904,-76.6122,Injured
+321.45,78.56,6894.78,0.0016,625,Normal,Critical,30.2672,-97.7431,Critical
+339.23,77.34,7302.56,0.0017,636,Abnormal,Healthy,34.0522,-118.2437,Healthy
+328.57,80.12,7223.45,0.0016,618,Normal,Injured,36.0528,-112.0938,Injured
+334.65,74.23,7275.34,0.0017,632,Abnormal,Critical,32.7767,-96.7970,Critical
+351.34,77.56,7545.67,0.0018,620,Normal,Healthy,37.7749,-122.4194,Healthy
+331.78,75.89,7190.23,0.0017,622,Abnormal,Injured,45.5234,-122.6762,Injured
+326.89,78.56,7245.67,0.0016,620,Normal,Critical,35.4676,-97.5164,Critical
+338.76,71.89,7354.21,0.0017,628,Abnormal,Healthy,33.4484,-112.0740,Healthy
+331.99,75.23,7210.34,0.0018,640,Normal,Injured,41.8781,-87.6298,Injured
+332.65,76.78,7224.45,0.0017,615,Abnormal,Critical,39.0997,-94.5786,Critical
+326.78,74.56,7102.45,0.0016,625,Normal,Healthy,37.7749,-122.4194,Healthy
+340.56,71.23,7325.34,0.0017,638,Abnormal,Injured,39.0997,-94.5786,Injured
+334.89,77.56,7402.89,0.0018,620,Normal,Critical,41.2565,-95.9345,Critical
+326.34,74.56,7107.45,0.0017,635,Abnormal,Healthy,34.0522,-118.2437,Healthy
+339.54,73.45,7298.56,0.0018,628,Normal,Injured,32.7767,-96.7970,Injured
+331.12,77.56,7234.67,0.0016,620,Abnormal,Critical,41.2565,-95.9345,Critical
+328.56,75.78,7179.89,0.0017,635,Normal,Healthy,39.0997,-94.5786,Healthy
+334.78,78.34,7312.56,0.0018,645,Abnormal,Injured,37.7749,-122.4194,Injured
+326.45,76.34,7089.56,0.0017,620,Normal,Critical,30.2672,-97.7431,Critical
+339.56,74.89,7290.12,0.0016,618,Abnormal,Healthy,41.8781,-87.6298,Healthy
+331.45,73.78,7124.56,0.0017,610,Normal,Injured,34.0522,-118.2437,Injured
+328.34,80.12,7114.67,0.0016,628,Abnormal,Critical,32.7767,-96.7970,Critical
+332.78,76.89,7271.45,0.0017,640,Normal,Healthy,30.2672,-97.7431,Healthy
+329.56,73.89,7245.67,0.0016,620,Abnormal,Injured,39.0997,-94.5786,Injured
+354.45,74.56,7475.67,0.0018,625,Normal,Critical,34.0522,-118.2437,Critical
+331.56,75.12,7204.56,0.0017,615,Abnormal,Healthy,41.8781,-87.6298,Healthy
+330.89,77.45,7310.12,0.0018,640,Normal,Injured,32.7767,-96.7970,Injured
+329.67,74.56,7279.89,0.0016,612,Abnormal,Critical,37.7749,-122.4194,Critical
+331.89,76.78,7119.78,0.0017,620,Normal,Healthy,39.0997,-94.5786,Healthy
+328.65,73.67,7265.34,0.0018,635,Abnormal,Injured,34.0522,-118.2437,Injured
+340.78,74.34,7385.56,0.0017,645,Normal,Critical,30.2672,-97.7431,Critical
+332.78,77.56,7201.78,0.0018,628,Abnormal,Healthy,37.7749,-122.4194,Healthy
+320.78,73.12,6869.34,0.0017,620,Normal,Injured,41.8781,-87.6298,Injured
+331.12,75.89,7185.34,0.0016,640,Abnormal,Critical,39.0997,-94.5786,Critical
+329.56,76.78,7245.56,0.0017,625,Normal,Healthy,33.4484,-112.0740,Healthy
+330.87,78.56,7375.34,0.0018,612,Abnormal,Injured,32.7767,-96.7970,Injured
+331.78,75.56,7197.89,0.0016,635,Normal,Critical,37.7749,-122.4194,Critical
+334.56,73.45,7318.67,0.0017,620,Abnormal,Healthy,39.0997,-94.5786,Healthy
+328.34,74.12,7105.56,0.0016,620,Normal,Injured,30.2672,-97.7431,Injured
+336.78,80.12,7311.89,0.0017,645,Abnormal,Critical,33.4484,-112.0740,Critical
+331.89,76.78,7203.45,0.0018,620,Normal,Healthy,34.0522,-118.2437,Healthy
+332.78,73.67,7245.12,0.0016,618,Abnormal,Injured,37.7749,-122.4194,Injured
+329.56,74.89,7167.56,0.0017,620,Normal,Critical,41.8781,-87.6298,Critical
+334.45,78.23,7387.23,0.0018,628,Abnormal,Healthy,30.2672,-97.7431,Healthy
+326.78,73.45,7145.78,0.0016,615,Normal,Injured,39.0997,-94.5786,Injured
+336.45,75.56,7314.89,0.0017,620,Abnormal,Critical,32.7767,-96.7970,Critical
+329.56,74.56,7265.34,0.0018,610,Normal,Healthy,33.4484,-112.0740,Healthy
+331.67,75.23,7223.45,0.0017,635,Abnormal,Injured,37.7749,-122.4194,Injured
+330.45,74.12,7355.56,0.0016,640,Normal,Critical,32.7767,-96.7970,Critical
+326.56,73.67,7198.23,0.0017,620,Abnormal,Healthy,41.8781,-87.6298,Healthy
+339.56,74.89,7261.78,0.0016,628,Normal,Injured,37.7749,-122.4194,Injured
+331.89,75.34,7245.67,0.0017,620,Abnormal,Critical,33.4484,-112.0740,Critical
+331.56,78.56,7234.12,0.0018,628,Normal,Healthy,30.2672,-97.7431,Healthy
+326.78,76.45,7102.34,0.0017,620,Abnormal,Injured,34.0522,-118.2437,Injured
+332.34,74.23,7198.56,0.0018,640,Normal,Critical,32.7767,-96.7970,Critical
+331.78,77.45,7305.56,0.0017,645,Abnormal,Healthy,37.7749,-122.4194,Healthy
+331.12,73.67,7123.45,0.0018,620,Normal,Injured,33.4484,-112.0740,Injured
+333.67,74.56,7261.78,0.0017,628,Abnormal,Critical,34.0522,-118.2437,Critical
+320.78,75.89,6894.56,0.0018,612,Normal,Healthy,39.0997,-94.5786,Healthy
+329.78,74.89,7215.67,0.0017,628,Abnormal,Injured,36.0528,-112.0938,Injured
+334.56,75.34,7301.89,0.0016,635,Normal,Critical,32.7767,-96.7970,Critical
+320.67,73.56,6901.56,0.0017,620,Abnormal,Healthy,41.8781,-87.6298,Healthy
+335.89,74.56,7315.67,0.0017,628,Normal,Injured,30.2672,-97.7431,Injured
+332.78,73.78,7223.45,0.0017,635,Abnormal,Critical,37.7749,-122.4194,Critical
+328.56,75.67,7215.78,0.0016,620,Normal,Healthy,34.0522,-118.2437,Healthy
+336.45,74.56,7298.34,0.0017,640,Abnormal,Injured,41.8781,-87.6298,Injured
+326.78,75.12,7105.67,0.0018,635,Normal,Critical,30.2672,-97.7431,Critical
+330.67,77.56,7265.56,0.0017,620,Abnormal,Healthy,37.7749,-122.4194,Healthy
+331.89,74.45,7175.34,0.0016,645,Normal,Injured,39.0997,-94.5786,Injured
+336.45,75.67,7254.56,0.0017,620,Abnormal,Critical,32.7767,-96.7970,Critical
+332.34,76.12,7190.23,0.0016,635,Normal,Healthy,30.2672,-97.7431,Healthy
+332.56,73.56,7224.45,0.0017,620,Abnormal,Injured,37.7749,-122.4194,Injured
+335.89,74.12,7245.56,0.0018,645,Normal,Critical,34.0522,-118.2437,Critical
+332.89,76.78,7271.78,0.0017,620,Abnormal,Healthy,41.8781,-87.6298,Healthy
+333.45,75.34,7154.12,0.0018,628,Normal,Injured,39.0997,-94.5786,Injured
+331.78,76.56,7234.45,0.0017,620,Abnormal,Critical,37.7749,-122.4194,Critical
+339.56,74.56,7265.67,0.0016,628,Normal,Healthy,35.4676,-97.5164,Healthy
+333.45,78.56,7227.89,0.0017,635,Abnormal,Injured,30.2672,-97.7431,Injured
+331.45,75.34,7315.67,0.0016,640,Normal,Critical,37.7749,-122.4194,Critical
+326.78,73.12,7104.56,0.0017,625,Abnormal,Healthy,32.7767,-96.7970,Healthy
+333.78,76.23,7223.56,0.0016,620,Normal,Injured,34.0522,-118.2437,Injured
+334.56,75.67,7254.89,0.0017,628,Abnormal,Critical,41.2565,-95.9345,Critical
+332.45,76.78,7301.34,0.0018,635,Normal,Healthy,30.2672,-97.7431,Healthy
+326.45,74.23,7124.56,0.0017,620,Abnormal,Injured,39.0997,-94.5786,Injured
+330.45,77.56,7375.67,0.0016,612,Normal,Critical,41.2565,-95.9345,Critical
+331.67,74.56,7223.67,0.0017,628,Abnormal,Healthy,37.7749,-122.4194,Healthy
+330.12,75.56,7345.67,0.0018,635,Normal,Injured,39.0997,-94.5786,Injured
+328.56,76.89,7210.34,0.0017,620,Abnormal,Critical,32.7767,-96.7970,Critical
+333.45,75.23,7101.78,0.0018,628,Normal,Healthy,33.4484,-112.0740,Healthy
+331.89,74.56,7225.67,0.0017,620,Abnormal,Injured,30.2672,-97.7431,Injured
+333.67,73.78,7210.56,0.0017,640,Normal,Critical,37.7749,-122.4194,Critical
+328.45,75.56,7155.78,0.0018,620,Normal,Healthy,34.0522,-118.2437,Healthy
+332.34,74.45,7302.56,0.0017,635,Abnormal,Injured,39.0997,-94.5786,Injured
+335.67,76.89,7375.56,0.0018,628,Normal,Critical,37.7749,-122.4194,Critical
+332.56,75.12,7234.78,0.0017,620,Abnormal,Healthy,30.2672,-97.7431,Healthy
+334.78,74.56,7254.34,0.0018,620,Normal,Injured,34.0522,-118.2437,Injured
+332.78,77.56,7234.56,0.0017,640,Abnormal,Critical,37.7749,-122.4194,Critical
+332.56,74.89,7275.67,0.0018,635,Normal,Healthy,30.2672,-97.7431,Healthy
+331.89,73.67,7215.56,0.0017,620,Abnormal,Injured,37.7749,-122.4194,Injured
+333.12,75.56,7245.89,0.0016,620,Normal,Critical,39.0997,-94.5786,Critical
+331.56,74.12,7155.78,0.0017,628,Abnormal,Healthy,34.0522,-118.2437,Healthy
+335.67,77.56,7301.45,0.0016,620,Normal,Injured,33.4484,-112.0740,Injured
+334.78,75.89,7198.12,0.0017,635,Abnormal,Critical,37.7749,-122.4194,Critical
+331.78,74.56,7267.78,0.0017,640,Normal,Healthy,32.7767,-96.7970,Healthy
+336.45,76.34,7302.45,0.0016,620,Abnormal,Injured,41.2565,-95.9345,Injured
+335.89,74.12,7225.67,0.0017,628,Normal,Critical,30.2672,-97.7431,Critical
+331.67,75.12,7155.78,0.0018,620,Abnormal,Healthy,37.7749,-122.4194,Healthy
+326.89,74.78,7223.45,0.0017,635,Normal,Injured,39.0997,-94.5786,Injured
+332.45,75.56,7275.67,0.0018,620,Abnormal,Critical,34.0522,-118.2437,Critical
+330.56,74.23,7154.12,0.0017,628,Normal,Healthy,30.2672,-97.7431,Healthy
+336.78,74.45,7375.56,0.0016,620,Abnormal,Injured,41.8781,-87.6298,Injured
+335.78,75.67,7301.78,0.0017,628,Normal,Critical,39.0997,-94.5786,Critical
+335.56,73.56,7310.45,0.0017,635,Abnormal,Healthy,34.0522,-118.2437,Healthy
+328.45,76.78,7110.56,0.0018,640,Normal,Injured,32.7767,-96.7970,Injured
+331.45,75.67,7301.89,0.0017,620,Abnormal,Critical,30.2672,-97.7431,Critical
+329.78,74.23,7271.78,0.0016,635,Normal,Healthy,37.7749,-122.4194,Healthy
+334.67,76.89,7305.67,0.0017,628,Abnormal,Injured,32.7767,-96.7970,Injured
+329.56,75.23,7105.67,0.0018,635,Normal,Critical,37.7749,-122.4194,Critical
+330.12,74.56,7254.56,0.0017,620,Abnormal,Healthy,41.8781,-87.6298,Healthy
+336.45,74.12,7335.67,0.0017,628,Normal,Injured,39.0997,-94.5786,Injured
+332.56,75.89,7225.78,0.0017,635,Abnormal,Critical,37.7749,-122.4194,Critical
+335.67,75.12,7301.56,0.0016,620,Normal,Healthy,34.0522,-118.2437,Healthy
+330.78,74.56,7245.67,0.0017,620,Abnormal,Injured,30.2672,-97.7431,Injured
+331.56,76.23,7234.67,0.0018,628,Normal,Critical,37.7749,-122.4194,Critical
+332.34,74.56,7275.89,0.0017,635,Abnormal,Healthy,32.7767,-96.7970,Healthy
+331.12,75.78,7198.56,0.0016,620,Normal,Injured,34.0522,-118.2437,Injured
+335.56,74.23,7325.67,0.0017,628,Abnormal,Critical,39.0997,-94.5786,Critical
+332.78,76.78,7234.89,0.0018,620,Normal,Healthy,30.2672,-97.7431,Healthy
+336.45,74.56,7331.56,0.0017,620,Abnormal,Injured,37.7749,-122.4194,Injured
+336.78,75.34,7275.67,0.0017,635,Normal,Critical,32.7767,-96.7970,Critical
+334.45,76.89,7156.78,0.0018,628,Abnormal,Healthy,30.2672,-97.7431,Healthy
+331.89,75.56,7285.67,0.0017,620,Normal,Injured,41.8781,-87.6298,Injured
+332.56,76.78,7255.67,0.0018,635,Abnormal,Critical,34.0522,-118.2437,Critical
+332.45,74.12,7198.67,0.0017,620,Normal,Healthy,30.2672,-97.7431,Healthy
+330.56,73.89,7155.67,0.0018,628,Abnormal,Injured,41.8781,-87.6298,Injured
+334.56,75.56,7312.45,0.0017,620,Normal,Critical,39.0997,-94.5786,Critical
+329.67,74.56,7225.67,0.0016,635,Abnormal,Healthy,37.7749,-122.4194,Healthy
+330.12,76.89,7254.45,0.0017,620,Normal,Injured,34.0522,-118.2437,Injured
+335.67,75.23,7198.56,0.0018,628,Abnormal,Critical,41.8781,-87.6298,Critical
+332.56,73.67,7119.78,0.0017,635,Normal,Healthy,37.7749,-122.4194,Healthy
+331.78,74.89,7234.56,0.0018,620,Abnormal,Injured,30.2672,-97.7431,Injured
+332.34,75.12,7271.78,0.0017,620,Normal,Critical,33.4484,-112.0740,Critical
+334.78,74.45,7301.56,0.0018,628,Abnormal,Healthy,39.0997,-94.5786,Healthy
+330.67,75.56,7301.78,0.0016,635,Normal,Injured,32.7767,-96.7970,Injured
+336.45,75.12,7198.45,0.0018,628,Abnormal,Critical,37.7749,-122.4194,Critical
+332.45,76.78,7234.67,0.0017,620,Normal,Healthy,30.2672,-97.7431,Healthy
+336.78,74.89,7325.67,0.0018,628,Abnormal,Injured,37.7749,-122.4194,Injured
+335.89,75.34,7312.56,0.0017,635,Normal,Critical,34.0522,-118.2437,Critical
+331.67,75.56,7155.67,0.0018,620,Abnormal,Healthy,32.7767,-96.7970,Healthy
+332.78,74.56,7275.89,0.0016,635,Normal,Injured,30.2672,-97.7431,Injured
+335.67,75.56,7234.45,0.0017,628,Abnormal,Critical,33.4484,-112.0740,Critical
+330.45,73.56,7105.67,0.0018,635,Normal,Healthy,34.0522,-118.2437,Healthy
+334.89,74.78,7190.56,0.0016,620,Abnormal,Injured,32.7767,-96.7970,Injured
+335.78,74.89,7335.67,0.0017,635,Normal,Critical,37.7749,-122.4194,Critical
+331.56,76.78,7225.34,0.0017,628,Abnormal,Healthy,30.2672,-97.7431,Healthy
+335.89,74.56,7254.78,0.0016,620,Normal,Injured,34.0522,-118.2437,Injured
+331.12,74.23,7190.34,0.0017,635,Abnormal,Critical,39.0997,-94.5786,Critical
+334.45,75.89,7335.56,0.0016,628,Normal,Healthy,41.8781,-87.6298,Healthy
+330.78,73.67,7115.67,0.0018,620,Abnormal,Injured,37.7749,-122.4194,Injured
+335.67,75.56,7234.67,0.0017,635,Normal,Critical,33.4484,-112.0740,Critical
+336.78,74.56,7298.56,0.0017,620,Abnormal,Injured,34.0522,-118.2437,Injured
+336.45,75.67,7275.56,0.0018,628,Normal,Critical,32.7767,-96.7970,Critical
+332.56,75.56,7198.56,0.0017,635,Normal,Healthy,37.7749,-122.4194,Healthy
+336.78,74.45,7310.34,0.0018,620,Abnormal,Injured,30.2672,-97.7431,Injured
+333.45,76.23,7254.67,0.0017,635,Normal,Critical,32.7767,-96.7970,Critical
+335.67,75.23,7223.56,0.0016,628,Abnormal,Injured,34.0522,-118.2437,Injured
+332.89,75.12,7312.34,0.0017,635,Normal,Healthy,30.2672,-97.7431,Healthy
+336.78,74.56,7302.56,0.0018,620,Abnormal,Injured,37.7749,-122.4194,Injured
+333.45,75.56,7245.67,0.0017,628,Normal,Critical,32.7767,-96.7970,Critical
+336.78,75.89,7234.56,0.0018,635,Abnormal,Healthy,33.4484,-112.0740,Healthy
+330.67,74.89,7312.34,0.0016,620,Normal,Injured,34.0522,-118.2437,Injured
+335.89,76.34,7245.56,0.0017,628,Abnormal,Critical,30.2672,-97.7431,Critical
+336.45,75.34,7310.78,0.0018,620,Normal,Healthy,37.7749,-122.4194,Healthy
+331.12,75.56,7245.67,0.0017,635,Abnormal,Injured,34.0522,-118.2437,Injured
+331.56,74.23,7275.67,0.0017,620,Normal,Critical,30.2672,-97.7431,Critical
+334.56,74.45,7223.78,0.0016,628,Abnormal,Healthy,37.7749,-122.4194,Healthy
+335.89,75.67,7310.56,0.0017,620,Normal,Injured,33.4484,-112.0740,Injured
+332.45,76.56,7234.89,0.0017,628,Abnormal,Critical,32.7767,-96.7970,Critical
+335.67,74.78,7154.56,0.0018,620,Normal,Healthy,30.2672,-97.7431,Healthy
+336.45,74.56,7310.45,0.0017,635,Abnormal,Injured,34.0522,-118.2437,Injured
+331.89,75.12,7245.67,0.0018,620,Normal,Critical,37.7749,-122.4194,Critical
+334.56,75.89,7302.56,0.0017,628,Abnormal,Healthy,32.7767,-96.7970,Healthy
+335.67,74.45,7312.34,0.0017,635,Normal,Injured,39.0997,-94.5786,Injured
+336.78,75.23,7275.67,0.0018,620,Abnormal,Critical,30.2672,-97.7431,Critical
+335.89,74.56,7223.67,0.0017,628,Normal,Healthy,34.0522,-118.2437,Healthy
+336.45,74.45,7223.78,0.0018,620,Abnormal,Injured,37.7749,-122.4194,Injured
+332.78,75.34,7255.78,0.0017,635,Normal,Critical,32.7767,-96.7970,Critical
+336.78,75.67,7198.67,0.0018,628,Abnormal,Healthy,30.2672,-97.7431,Healthy
+331.78,76.56,7335.67,0.0017,635,Normal,Injured,41.8781,-87.6298,Injured
+336.45,74.56,7234.78,0.0017,628,Abnormal,Critical,34.0522,-118.2437,Critical
+332.56,74.23,7302.45,0.0018,635,Normal,Healthy,32.7767,-96.7970,Healthy
+336.78,75.56,7271.78,0.0017,628,Abnormal,Injured,37.7749,-122.4194,Injured
+336.45,75.34,7305.67,0.0018,635,Normal,Critical,34.0522,-118.2437,Critical
+331.89,74.78,7198.45,0.0017,620,Abnormal,Healthy,30.2672,-97.7431,Healthy
+336.45,75.12,7275.56,0.0018,635,Normal,Critical,41.8781,-87.6298,Critical
+333.67,75.56,7198.56,0.0017,620,Abnormal,Injured,37.7749,-122.4194,Injured
+332.78,76.23,7275.78,0.0017,628,Normal,Healthy,34.0522,-118.2437,Healthy
+334.45,73.56,7254.67,0.0018,635,Abnormal,Critical,32.7767,-96.7970,Critical
+334.56,75.23,7265.56,0.0017,620,Normal,Injured,30.2672,-97.7431,Injured
+334.78,74.45,7275.67,0.0017,635,Normal,Critical,41.8781,-87.6298,Critical
+335.89,75.67,7255.78,0.0017,620,Abnormal,Injured,32.7767,-96.7970,Injured
+333.78,74.56,7271.89,0.0017,628,Normal,Critical,34.0522,-118.2437,Critical
+334.56,76.78,7154.67,0.0017,635,Abnormal,Healthy,37.7749,-122.4194,Healthy
+335.67,75.56,7190.56,0.0016,620,Normal,Injured,30.2672,-97.7431,Injured
+335.78,75.12,7225.78,0.0018,635,Normal,Critical,41.8781,-87.6298,Critical
+332.56,74.56,7198.45,0.0017,620,Abnormal,Healthy,37.7749,-122.4194,Healthy
+334.45,74.78,7265.56,0.0017,628,Normal,Injured,34.0522,-118.2437,Injured
+333.56,75.67,7271.78,0.0017,620,Abnormal,Critical,30.2672,-97.7431,Critical
+331.89,75.12,7312.45,0.0016,620,Normal,Healthy,32.7767,-96.7970,Healthy
+335.67,74.56,7105.67,0.0018,635,Abnormal,Injured,37.7749,-122.4194,Injured
+332.45,74.56,7271.78,0.0018,620,Normal,Critical,34.0522,-118.2437,Critical
+336.78,75.67,7275.89,0.0017,635,Normal,Healthy,30.2672,-97.7431,Healthy
+336.45,75.12,7245.67,0.0018,620,Abnormal,Injured,41.8781,-87.6298,Injured
+332.56,76.34,7315.67,0.0017,635,Normal,Critical,37.7749,-122.4194,Critical
+335.78,75.56,7312.34,0.0017,620,Normal,Injured,34.0522,-118.2437,Injured
+336.45,75.34,7301.56,0.0018,635,Abnormal,Healthy,30.2672,-97.7431,Healthy
+334.56,74.56,7215.78,0.0017,628,Normal,Critical,32.7767,-96.7970,Critical
+331.45,74.89,7275.67,0.0017,635,Normal,Injured,41.8781,-87.6298,Injured
+331.67,75.34,7245.78,0.0017,628,Abnormal,Healthy,34.0522,-118.2437,Healthy
+335.56,74.89,7302.67,0.0017,620,Normal,Injured,32.7767,-96.7970,Injured
+336.78,74.56,7315.67,0.0018,628,Abnormal,Critical,37.7749,-122.4194,Critical
+334.67,75.56,7255.56,0.0017,620,Normal,Healthy,30.2672,-97.7431,Healthy
+331.56,74.56,7301.45,0.0018,628,Abnormal,Injured,37.7749,-122.4194,Injured
+331.45,76.56,7245.56,0.0017,620,Normal,Critical,32.7767,-96.7970,Critical
+336.78,74.45,7312.34,0.0017,628,Abnormal,Healthy,34.0522,-118.2437,Healthy
+335.56,75.23,7155.67,0.0018,635,Normal,Injured,41.8781,-87.6298,Injured
+335.89,75.34,7245.56,0.0017,620,Normal,Critical,37.7749,-122.4194,Critical
+333.45,76.23,7305.67,0.0018,628,Abnormal,Healthy,30.2672,-97.7431,Healthy
+332.34,74.56,7315.67,0.0018,635,Normal,Critical,32.7767,-96.7970,Critical
+335.67,74.45,7154.78,0.0017,620,Normal,Injured,30.2672,-97.7431,Injured
+336.56,75.23,7225.78,0.0018,628,Abnormal,Healthy,41.8781,-87.6298,Healthy
+336.78,75.34,7255.67,0.0018,635,Normal,Critical,34.0522,-118.2437,Critical
+335.89,75.12,7265.67,0.0017,620,Abnormal,Injured,30.2672,-97.7431,Injured
+332.56,74.45,7205.67,0.0017,635,Normal,Healthy,37.7749,-122.4194,Healthy
+332.45,75.56,7312.34,0.0017,628,Abnormal,Critical,41.8781,-87.6298,Critical
+333.45,74.78,7310.45,0.0017,635,Normal,Injured,30.2672,-97.7431,Injured
+331.67,74.56,7245.67,0.0017,620,Abnormal,Healthy,34.0522,-118.2437,Healthy
+333.56,76.78,7219.78,0.0018,635,Normal,Critical,32.7767,-96.7970,Critical
+331.89,74.45,7255.67,0.0017,628,Abnormal,Injured,37.7749,-122.4194,Injured
+335.78,75.12,7234.56,0.0017,635,Normal,Healthy,30.2672,-97.7431,Healthy
+333.67,75.89,7275.78,0.0018,628,Abnormal,Injured,34.0522,-118.2437,Injured
+336.45,74.56,7156.78,0.0017,635,Normal,Critical,41.8781,-87.6298,Critical
+335.56,74.45,7198.56,0.0017,628,Abnormal,Healthy,30.2672,-97.7431,Healthy
+335.67,76.78,7315.67,0.0017,635,Normal,Injured,34.0522,-118.2437,Injured
+334.67,75.67,7245.56,0.0018,628,Abnormal,Critical,32.7767,-96.7970,Critical
+334.56,74.45,7190.34,0.0017,620,Normal,Healthy,37.7749,-122.4194,Healthy
+334.45,75.34,7255.67,0.0017,628,Abnormal,Injured,30.2672,-97.7431,Injured
+334.78,76.56,7275.67,0.0018,635,Normal,Critical,41.8781,-87.6298,Critical
+332.56,74.89,7105.67,0.0018,620,Abnormal,Healthy,37.7749,-122.4194,Healthy
+335.67,75.34,7190.56,0.0017,628,Normal,Injured,30.2672,-97.7431,Injured
+331.67,74.56,7312.56,0.0017,635,Normal,Critical,32.7767,-96.7970,Critical
+334.45,75.56,7255.67,0.0018,620,Abnormal,Injured,34.0522,-118.2437,Injured
+332.34,75.89,7155.67,0.0017,635,Normal,Healthy,30.2672,-97.7431,Healthy
+334.78,74.56,7225.56,0.0018,628,Abnormal,Injured,41.8781,-87.6298,Injured
+336.78,75.56,7205.67,0.0017,635,Normal,Critical,34.0522,-118.2437,Critical
+332.78,75.56,7335.67,0.0017,628,Abnormal,Healthy,37.7749,-122.4194,Healthy
+332.45,76.78,7234.45,0.0017,635,Normal,Injured,30.2672,-97.7431,Injured
+334.45,74.56,7225.78,0.0018,620,Abnormal,Healthy,37.7749,-122.4194,Healthy
+332.56,74.23,7255.67,0.0017,628,Normal,Injured,30.2672,-97.7431,Injured
+334.78,75.56,7275.89,0.0018,635,Normal,Critical,41.8781,-87.6298,Critical
+335.56,74.45,7234.67,0.0018,620,Abnormal,Healthy,32.7767,-96.7970,Healthy
+335.67,75.56,7255.67,0.0017,635,Normal,Injured,30.2672,-97.7431,Injured
+336.78,74.45,7275.78,0.0018,620,Normal,Critical,37.7749,-122.4194,Critical
+334.56,74.23,7301.67,0.0017,628,Abnormal,Injured,34.0522,-118.2437,Injured
+336.78,75.12,7255.67,0.0017,635,Normal,Critical,37.7749,-122.4194,Critical
+333.67,75.56,7219.78,0.0017,628,Abnormal,Injured,30.2672,-97.7431,Injured
+333.45,76.78,7190.56,0.0018,620,Normal,Healthy,37.7749,-122.4194,Healthy
+334.45,74.56,7254.78,0.0017,628,Abnormal,Injured,34.0522,-118.2437,Injured
+336.78,75.67,7305.67,0.0017,620,Normal,Critical,32.7767,-96.7970,Critical
+333.45,75.34,7119.78,0.0017,635,Normal,Healthy,37.7749,-122.4194,Healthy
+332.34,76.45,7335.67,0.0017,628,Abnormal,Injured,30.2672,-97.7431,Injured
+336.78,75.12,7265.67,0.0017,635,Normal,Critical,37.7749,-122.4194,Critical
+333.67,74.56,7155.67,0.0018,620,Abnormal,Injured,30.2672,-97.7431,Injured
+335.56,75.56,7305.67,0.0017,628,Normal,Healthy,34.0522,-118.2437,Healthy
+332.45,75.78,7245.67,0.0017,635,Abnormal,Critical,32.7767,-96.7970,Critical
+336.45,75.34,7119.67,0.0017,620,Normal,Injured,37.7749,-122.4194,Injured
+334.78,75.56,7275.78,0.0017,635,Normal,Critical,30.2672,-97.7431,Critical
+336.56,75.34,7234.56,0.0017,628,Abnormal,Injured,34.0522,-118.2437,Injured
+334.56,75.67,7305.67,0.0018,635,Normal,Critical,41.8781,-87.6298,Critical
+336.45,74.89,7225.67,0.0018,620,Normal,Healthy,32.7767,-96.7970,Healthy
+336.56,75.56,7312.34,0.0018,635,Abnormal,Injured,37.7749,-122.4194,Injured
+336.56,74.45,7305.67,0.0017,628,Normal,Critical,30.2672,-97.7431,Critical
+335.78,75.34,7275.67,0.0017,620,Normal,Injured,32.7767,-96.7970,Injured
+335.78,75.12,7255.67,0.0017,628,Normal,Healthy,37.7749,-122.4194,Healthy
+332.56,75.56,7245.56,0.0017,635,Abnormal,Injured,34.0522,-118.2437,Injured
+336.45,75.56,7312.56,0.0018,628,Normal,Critical,30.2672,-97.7431,Critical
+334.78,75.67,7265.67,0.0017,620,Normal,Healthy,32.7767,-96.7970,Healthy
+332.56,75.34,7105.67,0.0018,628,Abnormal,Injured,37.7749,-122.4194,Injured
+334.56,75.56,7225.78,0.0017,620,Normal,Critical,30.2672,-97.7431,Critical
+336.56,75.12,7275.67,0.0018,635,Normal,Injured,32.7767,-96.7970,Injured
+336.78,74.56,7275.89,0.0018,620,Normal,Injured,37.7749,-122.4194,Injured
+332.45,75.78,7234.56,0.0018,635,Normal,Injured,30.2672,-97.7431,Injured
+334.67,75.56,7315.67,0.0017,628,Normal,Critical,34.0522,-118.2437,Critical
+332.56,75.34,7275.56,0.0018,620,Abnormal,Healthy,37.7749,-122.4194,Healthy
+336.78,75.23,7315.67,0.0018,628,Normal,Injured,30.2672,-97.7431,Injured
+334.78,75.34,7154.56,0.0017,635,Normal,Healthy,34.0522,-118.2437,Healthy
+332.45,75.56,7190.56,0.0017,628,Abnormal,Injured,32.7767,-96.7970,Injured
+336.78,75.34,7255.67,0.0017,620,Normal,Critical,30.2672,-97.7431,Critical
+336.45,74.56,7155.67,0.0017,628,Normal,Injured,37.7749,-122.4194,Injured
+333.56,75.12,7315.67,0.0018,635,Abnormal,Healthy,32.7767,-96.7970,Healthy
+334.67,75.56,7255.67,0.0017,628,Normal,Critical,34.0522,-118.2437,Critical
+334.56,74.45,7302.34,0.0017,620,Abnormal,Injured,37.7749,-122.4194,Injured
+336.56,75.12,7245.67,0.0017,635,Normal,Healthy,32.7767,-96.7970,Healthy
+335.56,75.34,7215.67,0.0018,620,Normal,Critical,30.2672,-97.7431,Critical
+336.45,75.67,7105.67,0.0017,635,Normal,Injured,34.0522,-118.2437,Injured
+334.45,74.56,7315.67,0.0018,628,Abnormal,Healthy,30.2672,-97.7431,Healthy
+332.56,75.78,7312.34,0.0017,620,Normal,Injured,37.7749,-122.4194,Injured
+336.56,75.56,7255.67,0.0018,635,Normal,Healthy,34.0522,-118.2437,Healthy
+336.78,74.89,7155.67,0.0017,628,Normal,Critical,32.7767,-96.7970,Critical
+333.67,75.34,7301.56,0.0017,635,Normal,Injured,34.0522,-118.2437,Injured
+336.45,75.23,7265.67,0.0018,628,Normal,Healthy,30.2672,-97.7431,Healthy
+334.56,75.67,7302.34,0.0017,620,Normal,Injured,41.8781,-87.6298,Injured
+332.45,75.67,7315.67,0.0018,635,Normal,Healthy,37.7749,-122.4194,Healthy
+335.56,74.56,7205.67,0.0018,620,Abnormal,Injured,32.7767,-96.7970,Injured
+333.45,76.78,7198.67,0.0017,635,Normal,Healthy,34.0522,-118.2437,Healthy
+333.67,75.34,7219.78,0.0018,628,Normal,Injured,30.2672,-97.7431,Injured
+334.56,75.78,7305.67,0.0017,620,Abnormal,Healthy,37.7749,-122.4194,Healthy
+334.45,74.78,7255.67,0.0017,628,Normal,Injured,32.7767,-96.7970,Injured
+335.67,75.12,7225.67,0.0017,635,Normal,Critical,30.2672,-97.7431,Critical
+335.78,74.56,7105.67,0.0017,620,Abnormal,Healthy,41.8781,-87.6298,Healthy
+335.67,75.56,7312.34,0.0017,635,Normal,Critical,37.7749,-122.4194,Critical
+334.78,75.56,7315.67,0.0018,620,Normal,Injured,32.7767,-96.7970,Injured
+334.56,75.78,7305.67,0.0017,635,Normal,Injured,30.2672,-97.7431,Injured
+334.67,75.34,7265.67,0.0017,620,Abnormal,Healthy,37.7749,-122.4194,Healthy
+336.45,74.56,7225.67,0.0018,635,Normal,Injured,32.7767,-96.7970,Injured
+336.78,74.56,7245.67,0.0017,620,Normal,Injured,30.2672,-97.7431,Injured
+333.45,75.78,7105.67,0.0018,628,Abnormal,Healthy,37.7749,-122.4194,Healthy
+336.45,75.23,7234.45,0.0018,635,Normal,Injured,30.2672,-97.7431,Injured
+334.45,74.78,7301.56,0.0017,628,Normal,Healthy,37.7749,-122.4194,Healthy
+335.56,75.34,7234.56,0.0018,620,Normal,Critical,30.2672,-97.7431,Critical
+332.56,75.12,7245.56,0.0017,635,Abnormal,Injured,41.8781,-87.6298,Injured
+335.78,74.56,7275.67,0.0017,628,Normal,Healthy,34.0522,-118.2437,Healthy
+332.34,74.56,7275.56,0.0017,620,Abnormal,Injured,30.2672,-97.7431,Injured
+336.56,75.23,7315.67,0.0017,635,Normal,Healthy,32.7767,-96.7970,Healthy
+335.67,74.45,7155.67,0.0018,628,Abnormal,Injured,37.7749,-122.4194,Injured
+334.78,75.78,7245.67,0.0018,635,Normal,Injured,34.0522,-118.2437,Injured
+332.56,75.67,7312.34,0.0017,628,Normal,Healthy,32.7767,-96.7970,Healthy
+335.56,74.89,7234.56,0.0017,620,Normal,Healthy,30.2672,-97.7431,Healthy
+332.56,74.45,7255.67,0.0018,635,Normal,Injured,34.0522,-118.2437,Injured
+333.45,75.34,7312.34,0.0017,620,Normal,Healthy,37.7749,-122.4194,Healthy
+336.56,74.89,7275.56,0.0017,628,Normal,Healthy,34.0522,-118.2437,Healthy
+336.56,75.34,7315.67,0.0018,620,Normal,Injured,32.7767,-96.7970,Injured
+334.78,75.56,7155.67,0.0018,628,Abnormal,Healthy,30.2672,-97.7431,Healthy
+333.56,75.67,7255.67,0.0017,620,Normal,Healthy,34.0522,-118.2437,Healthy
+332.45,75.67,7315.67,0.0017,635,Normal,Injured,37.7749,-122.4194,Injured
+334.45,74.56,7312.34,0.0018,628,Normal,Healthy,30.2672,-97.7431,Healthy
+335.56,74.89,7255.67,0.0017,620,Abnormal,Injured,37.7749,-122.4194,Injured
+336.45,75.34,7315.67,0.0018,635,Normal,Injured,34.0522,-118.2437,Injured
+336.78,75.12,7225.67,0.0017,628,Normal,Critical,41.8781,-87.6298,Critical
+333.45,74.45,7312.34,0.0017,620,Abnormal,Healthy,32.7767,-96.7970,Healthy
+334.67,75.56,7315.67,0.0017,635,Normal,Injured,34.0522,-118.2437,Injured
+335.78,75.12,7205.67,0.0018,628,Normal,Healthy,30.2672,-97.7431,Healthy
+334.56,75.78,7190.56,0.0017,620,Normal,Injured,37.7749,-122.4194,Injured
+336.45,74.45,7305.67,0.0017,628,Normal,Healthy,32.7767,-96.7970,Healthy
+336.45,75.34,7255.67,0.0017,620,Abnormal,Injured,37.7749,-122.4194,Injured
+335.78,74.45,7155.67,0.0017,628,Normal,Injured,41.8781,-87.6298,Injured
+333.67,75.56,7155.67,0.0018,635,Abnormal,Healthy,37.7749,-122.4194,Healthy
+336.56,74.45,7301.67,0.0017,620,Normal,Healthy,30.2672,-97.7431,Healthy
+334.56,75.56,7190.56,0.0018,628,Normal,Injured,32.7767,-96.7970,Injured
+332.45,74.89,7245.67,0.0017,620,Normal,Injured,34.0522,-118.2437,Injured
+336.78,75.34,7155.67,0.0017,635,Normal,Healthy,37.7749,-122.4194,Healthy
+332.56,75.67,7190.56,0.0017,620,Normal,Injured,30.2672,-97.7431,Injured
+334.67,75.34,7312.34,0.0017,635,Normal,Healthy,32.7767,-96.7970,Healthy
+336.56,74.45,7155.67,0.0017,620,Abnormal,Injured,30.2672,-97.7431,Injured
+336.56,75.34,7225.67,0.0017,628,Normal,Healthy,34.0522,-118.2437,Healthy
+336.56,74.45,7255.67,0.0017,620,Normal,Injured,37.7749,-122.4194,Injured
+333.67,74.45,7305.67,0.0017,628,Abnormal,Healthy,34.0522,-118.2437,Healthy
+336.56,75.34,7255.67,0.0017,635,Normal,Injured,37.7749,-122.4194,Injured
+336.56,74.56,7190.56,0.0017,620,Abnormal,Healthy,32.7767,-96.7970,Healthy
+335.78,74.45,7190.56,0.0017,628,Normal,Injured,30.2672,-97.7431,Injured
+336.56,74.56,7275.67,0.0017,635,Normal,Healthy,37.7749,-122.4194,Healthy
+336.78,75.34,7305.67,0.0018,628,Normal,Injured,34.0522,-118.2437,Injured
+332.56,75.67,7105.67,0.0017,620,Normal,Healthy,30.2672,-97.7431,Healthy
+333.67,74.45,7119.78,0.0017,628,Normal,Healthy,37.7749,-122.4194,Healthy
+336.56,74.45,7255.67,0.0017,620,Abnormal,Injured,30.2672,-97.7431,Injured
+333.67,75.56,7245.67,0.0017,628,Normal,Healthy,34.0522,-118.2437,Healthy
+332.34,75.56,7198.67,0.0017,635,Normal,Injured,30.2672,-97.7431,Injured
+335.56,74.45,7190.56,0.0017,620,Normal,Injured,34.0522,-118.2437,Injured
+336.78,75.56,7205.67,0.0017,635,Normal,Injured,37.7749,-122.4194,Injured
+334.78,75.56,7305.67,0.0017,628,Normal,Injured,32.7767,-96.7970,Injured
+333.67,75.34,7275.67,0.0017,635,Normal,Injured,30.2672,-97.7431,Injured
+334.45,75.56,7219.78,0.0017,620,Abnormal,Healthy,32.7767,-96.7970,Healthy
+336.78,74.56,7305.67,0.0017,628,Normal,Healthy,34.0522,-118.2437,Healthy
+336.56,74.45,7105.67,0.0017,635,Normal,Injured,30.2672,-97.7431,Injured
+334.67,75.12,7119.78,0.0017,620,Normal,Injured,37.7749,-122.4194,Injured
+332.56,75.12,7305.67,0.0017,628,Normal,Injured,30.2672,-97.7431,Injured
+336.56,75.67,7255.67,0.0017,635,Normal,Injured,34.0522,-118.2437,Injured
+336.78,75.34,7305.67,0.0017,628,Normal,Healthy,30.2672,-97.7431,Healthy
+334.56,75.12,7275.67,0.0018,620,Normal,Healthy,34.0522,-118.2437,Healthy
+332.45,75.56,7255.67,0.0017,628,Normal,Healthy,32.7767,-96.7970,Healthy
+336.56,75.12,7312.34,0.0017,620,Normal,Injured,37.7749,-122.4194,Injured
+332.56,75.78,7119.78,0.0018,635,Normal,Healthy,30.2672,-97.7431,Healthy
+334.56,75.34,7225.67,0.0018,628,Normal,Healthy,34.0522,-118.2437,Healthy
+334.56,74.56,7155.67,0.0017,620,Normal,Healthy,37.7749,-122.4194,Healthy
+334.45,75.78,7198.67,0.0017,628,Abnormal,Injured,32.7767,-96.7970,Injured
+336.56,75.12,7305.67,0.0018,620,Normal,Healthy,34.0522,-118.2437,Healthy
+333.45,75.34,7105.67,0.0017,635,Abnormal,Healthy,37.7749,-122.4194,Healthy
+335.56,75.56,7245.67,0.0017,628,Normal,Injured,34.0522,-118.2437,Injured
+334.56,75.78,7219.78,0.0017,635,Normal,Injured,30.2672,-97.7431,Injured
+336.56,74.56,7305.67,0.0017,628,Normal,Healthy,37.7749,-122.4194,Healthy
+336.78,74.56,7315.67,0.0017,620,Normal,Injured,30.2672,-97.7431,Injured
+333.45,75.67,7198.67,0.0017,628,Normal,Injured,30.2672,-97.7431,Injured
+332.56,75.67,7255.67,0.0017,635,Normal,Healthy,37.7749,-122.4194,Healthy
+336.45,75.67,7105.67,0.0017,628,Normal,Healthy,30.2672,-97.7431,Healthy
+335.56,74.56,7105.67,0.0018,620,Normal,Healthy,34.0522,-118.2437,Healthy
+336.45,75.67,7234.56,0.0017,628,Normal,Injured,37.7749,-122.4194,Injured
+334.45,75.56,7198.67,0.0017,635,Normal,Healthy,34.0522,-118.2437,Healthy
+334.45,74.56,7245.67,0.0018,620,Normal,Injured,37.7749,-122.4194,Injured
+334.56,75.67,7105.67,0.0018,628,Abnormal,Injured,34.0522,-118.2437,Injured
+336.56,75.34,7155.67,0.0017,620,Normal,Healthy,37.7749,-122.4194,Healthy
+332.56,75.34,7255.67,0.0017,635,Normal,Healthy,34.0522,-118.2437,Healthy
+336.78,75.12,7225.67,0.0018,620,Normal,Injured,34.0522,-118.2437,Injured
+335.56,75.34,7225.67,0.0017,635,Normal,Injured,30.2672,-97.7431,Injured
+336.78,74.56,7255.67,0.0017,628,Normal,Healthy,37.7749,-122.4194,Healthy
+333.56,75.34,7119.78,0.0018,620,Normal,Healthy,34.0522,-118.2437,Healthy
+334.78,74.45,7155.67,0.0018,635,Normal,Healthy,32.7767,-96.7970,Healthy
+334.56,75.56,7275.67,0.0018,620,Normal,Healthy,30.2672,-97.7431,Healthy
+334.45,75.67,7225.67,0.0017,628,Normal,Healthy,37.7749,-122.4194,Healthy
+335.56,75.34,7105.67,0.0017,635,Normal,Injured,32.7767,-96.7970,Injured
+335.56,75.67,7155.67,0.0017,628,Normal,Healthy,34.0522,-118.2437,Healthy
+336.56,74.56,7105.67,0.0017,620,Normal,Injured,30.2672,-97.7431,Injured
+334.56,75.34,7225.67,0.0017,635,Normal,Healthy,34.0522,-118.2437,Healthy
+336.78,75.12,7305.67,0.0017,628,Normal,Healthy,32.7767,-96.7970,Healthy
+334.56,75.56,7312.34,0.0017,620,Normal,Healthy,37.7749,-122.4194,Healthy
+336.56,75.67,7225.67,0.0017,635,Normal,Injured,32.7767,-96.7970,Injured
+336.56,75.56,7119.78,0.0017,620,Normal,Injured,37.7749,-122.4194,Injured
+336.56,75.67,7305.67,0.0017,635,Normal,Healthy,30.2672,-97.7431,Healthy
+334.56,75.67,7105.67,0.0018,620,Normal,Injured,37.7749,-122.4194,Injured
+334.45,75.78,7255.67,0.0017,635,Normal,Healthy,32.7767,-96.7970,Healthy
+335.67,75.56,7245.67,0.0018,628,Normal,Healthy,37.7749,-122.4194,Healthy
+336.56,75.34,7234.56,0.0017,620,Normal,Injured,30.2672,-97.7431,Injured
+335.56,75.67,7105.67,0.0017,628,Normal,Healthy,34.0522,-118.2437,Healthy
+333.67,75.56,7119.78,0.0017,620,Normal,Healthy,32.7767,-96.7970,Healthy
+334.78,75.78,7105.67,0.0017,635,Normal,Injured,37.7749,-122.4194,Injured
+335.56,75.12,7105.67,0.0017,620,Normal,Healthy,34.0522,-118.2437,Healthy
+334.56,75.67,7255.67,0.0017,635,Normal,Healthy,37.7749,-122.4194,Healthy
+336.56,75.67,7305.67,0.0017,628,Normal,Injured,30.2672,-97.7431,Injured
+334.56,75.56,7312.34,0.0017,620,Normal,Injured,30.2672,-97.7431,Injured
+334.45,75.34,7105.67,0.0017,628,Normal,Healthy,32.7767,-96.7970,Healthy
+333.67,75.34,7305.67,0.0017,620,Normal,Injured,37.7749,-122.4194,Injured
+336.45,75.56,7225.67,0.0017,628,Normal,Injured,30.2672,-97.7431,Injured
+335.56,74.45,7105.67,0.0017,628,Normal,Healthy,37.7749,-122.4194,Healthy
+336.56,74.89,7119.78,0.0017,620,Normal,Healthy,32.7767,-96.7970,Healthy
+334.67,75.67,7119.78,0.0017,635,Normal,Healthy,37.7749,-122.4194,Healthy
+335.56,74.89,7255.67,0.0017,620,Abnormal,Injured,30.2672,-97.7431,Injured
+334.56,75.34,7155.67,0.0017,635,Normal,Healthy,30.2672,-97.7431,Healthy
+336.56,74.89,7312.34,0.0017,628,Normal,Healthy,37.7749,-122.4194,Healthy
+333.67,75.56,7198.67,0.0017,635,Normal,Healthy,34.0522,-118.2437,Healthy
+334.56,75.67,7105.67,0.0017,620,Normal,Injured,30.2672,-97.7431,Injured
+334.56,75.78,7255.67,0.0017,635,Normal,Healthy,34.0522,-118.2437,Healthy
+336.56,75.34,7105.67,0.0017,620,Normal,Injured,34.0522,-118.2437,Injured
+333.56,74.56,7255.67,0.0017,620,Normal,Injured,37.7749,-122.4194,Injured
+336.56,75.34,7105.67,0.0017,628,Normal,Injured,30.2672,-97.7431,Injured
+333.67,75.34,7315.67,0.0017,620,Normal,Injured,34.0522,-118.2437,Injured
+336.56,75.34,7305.67,0.0017,628,Normal,Injured,32.7767,-96.7970,Injured
+336.56,74.45,7312.34,0.0017,620,Normal,Injured,34.0522,-118.2437,Injured
+336.78,75.34,7315.67,0.0017,628,Normal,Healthy,32.7767,-96.7970,Healthy
+336.56,75.56,7119.78,0.0017,620,Normal,Healthy,30.2672,-97.7431,Healthy
+336.56,75.34,7255.67,0.0017,635,Normal,Injured,30.2672,-97.7431,Injured
+336.78,75.34,7155.67,0.0017,620,Normal,Healthy,34.0522,-118.2437,Healthy
+334.45,75.56,7119.78,0.0017,635,Normal,Healthy,30.2672,-97.7431,Healthy
+334.56,74.89,7245.67,0.0017,628,Normal,Healthy,34.0522,-118.2437,Healthy
+336.78,75.67,7255.67,0.0017,620,Normal,Injured,37.7749,-122.4194,Injured
+333.67,75.12,7255.67,0.0017,628,Normal,Healthy,30.2672,-97.7431,Healthy
+334.56,74.56,7105.67,0.0017,635,Normal,Healthy,32.7767,-96.7970,Healthy
+333.67,75.34,7255.67,0.0017,620,Normal,Healthy,37.7749,-122.4194,Healthy
+336.56,74.56,7312.34,0.0017,635,Normal,Healthy,32.7767,-96.7970,Healthy
+334.56,75.67,7105.67,0.0017,620,Normal,Injured,30.2672,-97.7431,Injured
+334.56,75.56,7105.67,0.0017,635,Normal,Healthy,34.0522,-118.2437,Healthy
+336.78,75.34,7155.67,0.0017,628,Normal,Injured,37.7749,-122.4194,Injured
+334.45,75.12,7155.67,0.0017,620,Normal,Injured,34.0522,-118.2437,Injured
+336.56,74.56,7155.67,0.0017,628,Normal,Injured,37.7749,-122.4194,Injured
+
+
+
