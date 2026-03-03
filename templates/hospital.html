@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nearby Hospitals</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-image: url("{{ url_for('static', filename='Images/hospitalbg.jpeg') }}");
+        background-size: cover;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 800px;
+        width: 100%;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        margin-bottom: 20px;
+        animation: fadeIn 0.8s ease-in-out;
+      }
+
+      h1 {
+        color: #333;
+        font-size: 2rem;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      /* Hospital item styles */
+      .hospital-item {
+        background-color: #f9f9f9;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .hospital-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      .hospital-item h2 {
+        color: #333;
+        font-size: 1.5rem;
+        margin-bottom: 5px;
+      }
+
+      .hospital-item a {
+        color: #1a73e8;
+        text-decoration: none;
+      }
+
+      .hospital-item a:hover {
+        text-decoration: underline;
+      }
+
+      .hospital-item p {
+        color: #666;
+        margin-bottom: 8px;
+        font-size: 0.9rem;
+      }
+
+      .hospital-item p:last-child {
+        margin-bottom: 0;
+      }
+
+      .hospital-item .location {
+        font-size: 0.9rem;
+        color: #888;
+      }
+
+      /* Map styles */
+      #map {
+        height: 400px;
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Back button styles */
+      .back-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        margin-top: 20px;
+      }
+
+      .back-button:hover {
+        background-color: #45a049;
+      }
+
+      /* Form styles */
+      .diagnosis-form {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+      }
+
+      .form-group {
+        margin-bottom: 15px;
+      }
+
+      .form-group label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: block;
+      }
+
+      .form-group input[type="text"], .form-group textarea {
+        width: 100%;
+        padding: 8px;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      .form-group .checkbox-group {
+        margin-top: 5px;
+      }
+
+      .form-group .checkbox-group label {
+        margin-right: 10px;
+      }
+
+      /* Animation */
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: scale(0.9);
+        }
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Nearby Hospitals</h1>
+        <div class="message-container">
+            <p>{{ message }}</p>
+            <p>Health Status: {{ health_status }}</p>
+        </div>
+        <div class="hospital-list">
+            {% for hospital in nearby_hospitals %}
+            <div
+              class="hospital-item"
+              data-lat="{{ hospital.location.lat }}"
+              data-lng="{{ hospital.location.lon }}"
+            >
+              <h2><a href="#" target="_blank">{{ hospital.name }}</a></h2>
+              <p>{{ hospital.address }}</p>
+              <p>Email: {{ hospital.email }}</p>
+              <p>Mobile: {{ hospital.mobile }}</p>
+              <p>Latitude: {{ hospital.location.lat }}, Longitude: {{ hospital.location.lon }}</p>
+            </div>
+            {% endfor %}
+        </div>
+        <form class="diagnosis-form" method="POST" action="/">
+            <input type="hidden" id="user-lat" name="latitude" value="0">
+            <input type="hidden" id="user-lng" name="longitude" value="0">
+            
+        </form>
+        <a href="/" class="back-button">Back</a>
+        
+        <a href="{{ url_for('diagnosis', id=record_id) }}">Go to Diagnosis</a>
+
+
+    </div>
+    <div id="map"></div>
+    <script type="application/json" id="hospitals-data">{{ nearby_hospitals | tojson }}</script>
+    <script>
+      function updateHospitalLinks(userLat, userLng) {
+        const hospitalItems = document.querySelectorAll('.hospital-item');
+        hospitalItems.forEach(item => {
+          const hospitalLat = item.getAttribute('data-lat');
+          const hospitalLng = item.getAttribute('data-lng');
+          const link = item.querySelector('a');
+          link.href = `https://www.google.com/maps/dir/?api=1&origin=${userLat},${userLng}&destination=${hospitalLat},${hospitalLng}`;
+        });
+      }
+      
+      function getUserLocation() {
+        if (navigator.geolocation) {
+          navigator.geolocation.getCurrentPosition(
+            position => {
+              const userLat = position.coords.latitude;
+              const userLng = position.coords.longitude;
+              document.getElementById('user-lat').value = userLat;
+              document.getElementById('user-lng').value = userLng;
+              console.log("User location:", userLat, userLng);
+              updateHospitalLinks(userLat, userLng);
+            },
+            error => {
+              console.error("Error getting user location:", error);
+            }
+          );
+        } else {
+          console.error("Geolocation is not supported by this browser.");
+        }
+      }
+
+      window.onload = getUserLocation;
+    </script>
+</body>
+</html>

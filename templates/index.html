@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Status Prediction</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url("{{ url_for('static', filename='Images/indexbg.jpeg') }}");
+            background-size: cover;
+            background-color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        form {
+            width: 90%;
+            max-width: 360px;
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-top: 5px solid #4CAF50;
+            animation: fadeIn 1s ease-in-out;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 3px;
+            color: #555;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"], button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover, button:hover {
+            background-color: #45a049;
+        }
+
+        .message-container {
+            margin-top: 20px;
+            text-align: center;
+            color: #555;
+        }
+
+        .hospital-item {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 15px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hospital-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .hospital-item h2 {
+            color: #333;
+            margin-bottom: 5px;
+            font-size: 1.5rem;
+        }
+
+        .hospital-item a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        .hospital-item a:hover {
+            text-decoration: underline;
+        }
+
+        .hospital-item p {
+            color: #666;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+
+        .hospital-item p:last-child {
+            margin-bottom: 0;
+        }
+
+        .hospital-item .location {
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .back-button:hover {
+            background-color: #45a049;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        /* Additional styling */
+        .hospital-container {
+            overflow-y: auto;
+            max-height: 80vh;
+        }
+
+        .hospital-item {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .hospital-item p {
+            margin: 0;
+        }
+
+        .hospital-item .hospital-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .hospital-item .hospital-info div {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .hospital-item .contact-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .hospital-item .contact-info p {
+            margin-right: 10px;
+        }
+
+        .hospital-item .location {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        #map {
+            height: 400px;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .spinner-container {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+        }
+
+        .spinner-border,
+        .spinner-grow {
+            width: 3rem;
+            height: 3rem;
+        }
+
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Health Status Prediction</h1>
+    <form id="healthForm" method="POST" action="/">
+        <label for="bullet_velocity">Bullet Velocity:</label>
+        <input type="number" step="any" name="bullet_velocity" id="bullet_velocity" required><br>
+        
+        <label for="human_body_mass">Human Body Mass:</label>
+        <input type="number" step="any" name="human_body_mass" id="human_body_mass" required><br>
+        
+        <label for="kinetic_energy">Kinetic Energy:</label>
+        <input type="number" step="any" name="kinetic_energy" id="kinetic_energy" required><br>
+        
+        <label for="temperature_rise">Temperature Rise:</label>
+        <input type="number" step="any" name="temperature_rise" id="temperature_rise" required><br>
+        
+        <label for="blood_loss">Blood Loss:</label>
+        <input type="number" step="any" name="blood_loss" id="blood_loss" required><br>
+
+        <label for="ecg_readings">ECG Readings:</label>
+        <select name="ecg_readings" id="ecg_readings" required>
+            <option value="Normal">Normal</option>
+            <option value="Abnormal">Abnormal</option>
+        </select><br>
+
+        <input type="hidden" name="latitude" id="latitude">
+        <input type="hidden" name="longitude" id="longitude">
+
+        <button type="button" onclick="getLocationAndSubmit()">Submit</button>
+    </form>
+    <div class="message-container">
+        <p>{{ message }}</p>
+        <p>Health Status: {{ health_status }}</p>
+    </div>
+    <div class="hospital-list">
+        {% for hospital in nearby_hospitals %}
+        <div class="hospital-item" data-lat="{{ hospital.location.lat }}" data-lng="{{ hospital.location.lon }}">
+            <p><strong><a href="https://www.google.com/maps/dir/?api=1&destination={{ hospital.location.lat }},{{ hospital.location.lon }}" target="_blank">{{ hospital.name }}</a></strong></p>
+            <p>{{ hospital.address }}</p>
+            <p>Email: {{ hospital.email }}</p>
+            <p>Mobile: {{ hospital.mobile }}</p>
+            <p>Latitude: {{ hospital.location.lat }}, Longitude: {{ hospital.location.lon }}</p>
+        </div>
+        {% endfor %}
+    </div>
+    <div id="map"></div>
+
+    <!-- Spinner Elements -->
+    <div class="spinner-container" id="spinnerContainer">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+        <div class="spinner-grow" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+
+    <script>
+        function getLocationAndSubmit() {
+            
+            document.getElementById('spinnerContainer').style.display = 'flex';
+
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(function(position) {
+                    document.getElementById('latitude').value = position.coords.latitude;
+                    document.getElementById('longitude').value = position.coords.longitude;
+                    document.getElementById('healthForm').submit();
+                }, function(error) {
+                    alert('Error occurred. Error code: ' + error.code);
+                    document.getElementById('spinnerContainer').style.display = 'none'; 
+                });
+            } else {
+                alert('Geolocation is not supported by this browser.');
+                document.getElementById('spinnerContainer').style.display = 'none'; 
+            }
+        }
+    </script>
+</body>
+</html>
