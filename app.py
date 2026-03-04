@@ -264,22 +264,22 @@ def hospital_list():
     record_id = None
     lat = request.args.get('latitude')
     lng = request.args.get('longitude')
-    
-   try:
-    if lat and lng:
-        nearby_hospitals = get_nearby_hospitals((lat, lng))
-        scrape_hospital_contact_details(nearby_hospitals)
 
-   except Exception:
-       nearby_hospitals = []
-        
-        
-    
-        
-           
-    
-    return render_template('hospital.html', message=message, health_status=health_status, nearby_hospitals=nearby_hospitals, record_id=record_id)
+    try:
+        if lat and lng:
+            nearby_hospitals = get_nearby_hospitals((lat, lng))
+            scrape_hospital_contact_details(nearby_hospitals)
+    except Exception as e:
+        print("Hospital API error:", e)
+        nearby_hospitals = []
 
+    return render_template(
+        'hospital.html',
+        message=message,
+        health_status=health_status,
+        nearby_hospitals=nearby_hospitals,
+        record_id=record_id
+    )
 @app.route('/diagnosis/<int:id>', methods=['GET', 'POST'])
 def diagnosis(id):
     record = ImpactHealth.query.get_or_404(id)
@@ -301,6 +301,7 @@ if __name__ == "__main__":
 
 
    
+
 
 
 
