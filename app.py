@@ -97,7 +97,7 @@ def get_nearby_hospitals(location, radius=5000, limit=15):
     """
 
     try:
-        response = requests.get(overpass_url, params={'data': overpass_query}, timeout=10)
+        response = requests.get(overpass_url, params={'data': overpass_query}, timeout=5)
 
         if response.status_code != 200:
             return []
@@ -159,8 +159,11 @@ def index():
         temperature_rise = float(request.form.get('temperature_rise'))
         blood_loss = float(request.form.get('blood_loss'))
         ecg_readings = request.form.get('ecg_readings')
-        lat = float(request.form.get('latitude'))
-        lng = float(request.form.get('longitude'))
+        lat = request.form.get('latitude')
+        lng = request.form.get('longitude')
+
+        lat = float(lat) if lat else None
+        lng = float(lng) if lng else None
         
         print(f"Received form data: bullet_velocity={bullet_velocity}, human_body_mass={human_body_mass}, kinetic_energy={kinetic_energy}, temperature_rise={temperature_rise}, blood_loss={blood_loss}, ecg_readings={ecg_readings}, lat={lat}, lng={lng}")
 
@@ -190,9 +193,13 @@ def index():
             message = "Record inserted successfully"
             
             
-            if lat and lng:
-                nearby_hospitals = get_nearby_hospitals((lat, lng))
-                scrape_hospital_contact_details(nearby_hospitals)
+            try:
+                if lat and lng:
+                          nearby_hospitals = get_nearby_hospitals((lat, lng))
+        # scrape_hospital_contact_details(nearby_hospitals)
+            except Exception as e:
+                print("Hospital API error:", e)
+                nearby_hospitals = []
             
             
             sender_email = os.environ.get("EMAIL_USER")
@@ -267,7 +274,7 @@ def hospital_list():
     try:
         if lat and lng:
             nearby_hospitals = get_nearby_hospitals((lat, lng))
-            scrape_hospital_contact_details(nearby_hospitals)
+            # scrape_hospital_contact_details(nearby_hospitals)
     except Exception as e:
         print("Hospital API error:", e)
         nearby_hospitals = []
@@ -300,6 +307,7 @@ if __name__ == "__main__":
 
 
    
+
 
 
 
