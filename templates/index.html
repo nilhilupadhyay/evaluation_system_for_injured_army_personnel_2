@@ -290,6 +290,38 @@
             <span class="visually-hidden">Loading...</span>
         </div>
     </div>
+    <div style="margin-top:30px; padding:15px; border:1px solid #ccc; border-radius:8px; background:#f9f9f9;">
+    <h3>Project Data Collection (Real-World Implementation)</h3>
+    <p>
+        The input parameters used in this system such as <b>bullet velocity, body mass, kinetic energy,
+        temperature rise, blood loss, and ECG readings</b> are assumed to be collected through
+        real-time sensors attached to an injured soldier in the battlefield.
+    </p>
+
+    <p>
+        These sensors can be connected to a microcontroller such as <b>Arduino</b> or <b>ESP32</b>.
+        The microcontroller reads the sensor values and transmits the data using
+        wireless communication technologies like <b>WiFi, GSM, or LoRa</b>.
+    </p>
+
+    <p>
+        The transmitted sensor data is then sent to this web application through an API
+        or HTTP request. The system processes the data using a <b>Machine Learning model (KNN)</b>
+        to predict the health status of the injured personnel and identify nearby hospitals
+        for emergency evacuation.
+    </p>
+
+    <p>
+        <b>Technology Stack Used:</b><br>
+        • Sensors (ECG, Temperature, Blood Loss Sensors)<br>
+        • Arduino / ESP32 Microcontroller<br>
+        • Wireless Communication (WiFi / GSM / LoRa)<br>
+        • Python Flask Web Application<br>
+        • Machine Learning Model (KNN - Scikit-Learn)<br>
+        • SQLite Database<br>
+        • Deployment using Cloud Platform
+    </p>
+    </div>
 
     <script>
         function getLocationAndSubmit() {
@@ -313,3 +345,4 @@
     </script>
 </body>
 </html>
+
