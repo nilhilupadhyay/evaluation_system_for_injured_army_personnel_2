@@ -258,9 +258,14 @@ def hospital_list():
     lat = request.args.get('latitude')
     lng = request.args.get('longitude')
     
+   try:
     if lat and lng:
         nearby_hospitals = get_nearby_hospitals((lat, lng))
         scrape_hospital_contact_details(nearby_hospitals)
+    except:
+        nearby_hospitals = []
+        
+           
     
     return render_template('hospital.html', message=message, health_status=health_status, nearby_hospitals=nearby_hospitals, record_id=record_id)
 
@@ -283,5 +288,6 @@ def diagnosis(id):
 
 
    
+
 
 
