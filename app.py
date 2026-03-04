@@ -83,6 +83,7 @@ def scrape_hospital_contact_details(hospitals):
 
 def get_nearby_hospitals(location, radius=5000, limit=15):
     overpass_url = "http://overpass-api.de/api/interpreter"
+
     overpass_query = f"""
     [out:json];
     (
@@ -94,13 +95,26 @@ def get_nearby_hospitals(location, radius=5000, limit=15):
     >;
     out skel qt;
     """
-    response = requests.get(overpass_url, params={'data': overpass_query})
-    data = response.json()
+
+    try:
+        response = requests.get(overpass_url, params={'data': overpass_query}, timeout=10)
+
+        if response.status_code != 200:
+            return []
+
+        data = response.json()
+
+    except Exception as e:
+        print("Overpass API error:", e)
+        return []
+
     hospitals = []
     count = 0
+
     for element in data['elements']:
         if count >= limit:
             break
+
         if element['type'] == 'node':
             hospital = {
                 'name': element.get('tags', {}).get('name', 'N/A'),
@@ -110,26 +124,11 @@ def get_nearby_hospitals(location, radius=5000, limit=15):
                     'lon': element['lon']
                 }
             }
+
             hospitals.append(hospital)
             count += 1
-        elif element['type'] in ['way', 'relation']:
-            for member in element.get('members', []):
-                if member['type'] == 'node':
-                    node_id = member['ref']
-                    node = next((item for item in data['elements'] if item['id'] == node_id and item['type'] == 'node'), None)
-                    if node:
-                        hospital = {
-                            'name': node.get('tags', {}).get('name', 'N/A'),
-                            'address': node.get('tags', {}).get('address', 'N/A'),
-                            'location': {
-                                'lat': node['lat'],
-                                'lon': node['lon']
-                            }
-                        }
-                        hospitals.append(hospital)
-                        count += 1
-    return hospitals[:limit]
 
+    return hospitals[:limit]
 
 def send_email(sender_email, sender_password, recipient_emails, body):
     msg = MIMEMultipart()
@@ -301,6 +300,7 @@ if __name__ == "__main__":
 
 
    
+
 
 
 
