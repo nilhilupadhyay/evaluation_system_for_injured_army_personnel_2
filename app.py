@@ -160,8 +160,8 @@ def index():
         temperature_rise = float(request.form.get('temperature_rise'))
         blood_loss = float(request.form.get('blood_loss'))
         ecg_readings = request.form.get('ecg_readings')
-        lat = request.form.get('latitude')
-        lng = request.form.get('longitude')
+        lat = float(request.form.get('latitude'))
+        lng = float(request.form.get('longitude'))
         
         print(f"Received form data: bullet_velocity={bullet_velocity}, human_body_mass={human_body_mass}, kinetic_energy={kinetic_energy}, temperature_rise={temperature_rise}, blood_loss={blood_loss}, ecg_readings={ecg_readings}, lat={lat}, lng={lng}")
 
@@ -227,7 +227,14 @@ def index():
                 f"Longitude: {lng}\n"
                 f"email_detail: nikhilupadhyayin@gmail.com"
             )
-            send_email(sender_email, sender_password, recipient_emails, body)
+            try:
+                send_email(sender_email, sender_password, recipient_emails, body)
+    
+
+
+            except Exception as e:
+                print("Email error:", e)
+    
 
             #msg.attach(MIMEText(body, 'plain'))
             
@@ -262,8 +269,12 @@ def hospital_list():
     if lat and lng:
         nearby_hospitals = get_nearby_hospitals((lat, lng))
         scrape_hospital_contact_details(nearby_hospitals)
-    except:
-        nearby_hospitals = []
+
+   except Exception:
+       nearby_hospitals = []
+        
+        
+    
         
            
     
@@ -285,9 +296,12 @@ def diagnosis(id):
             message = f"Error: {str(e)}"
 
     return render_template('diagnosis.html', record=record, message=message)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8080)
 
 
    
+
 
 
 
