@@ -193,13 +193,8 @@ def index():
             message = "Record inserted successfully"
             
             
-            try:
-                if lat and lng:
-                          nearby_hospitals = get_nearby_hospitals((lat, lng))
-        # scrape_hospital_contact_details(nearby_hospitals)
-            except Exception as e:
-                print("Hospital API error:", e)
-                nearby_hospitals = []
+            # Disabled hospital API for fast deployment
+            nearby_hospitals = []
             
             
             sender_email = os.environ.get("EMAIL_USER")
@@ -233,13 +228,8 @@ def index():
                 f"Longitude: {lng}\n"
                 f"email_detail: nikhilupadhyayin@gmail.com"
             )
-            try:
-                send_email(sender_email, sender_password, recipient_emails, body)
-    
-
-
-            except Exception as e:
-                print("Email error:", e)
+            # Email disabled for Railway deployment
+            print("Email sending skipped")
     
 
             #msg.attach(MIMEText(body, 'plain'))
@@ -271,13 +261,9 @@ def hospital_list():
     lat = request.args.get('latitude')
     lng = request.args.get('longitude')
 
-    try:
-        if lat and lng:
-            nearby_hospitals = get_nearby_hospitals((lat, lng))
-            # scrape_hospital_contact_details(nearby_hospitals)
-    except Exception as e:
-        print("Hospital API error:", e)
-        nearby_hospitals = []
+    nearby_hospitals = []
+    
+
 
     return render_template(
         'hospital.html',
@@ -307,6 +293,7 @@ if __name__ == "__main__":
 
 
    
+
 
 
 
